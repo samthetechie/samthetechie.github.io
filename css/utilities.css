@@ -29,6 +29,7 @@ a.icon-link:hover {
 .navbar {
   width: 100%;
   padding: 30px 50px;
+  background-color: #FFFFFF;
   display: flex;
   justify-content: space-between;
   align-items: center;
