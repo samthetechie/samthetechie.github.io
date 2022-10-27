@@ -1,14 +1,14 @@
-/* Light mode */
+/* Dark mode */
 :root {
-   --body-bg: #FFFFFF;
-   --body-color: #000000;
+   --body-bg: #000000;
+   --body-color: #FFFFFF;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
+/* Light mode */
+@media (prefers-color-scheme: light) {
    :root {
-       --body-bg: #000000;
-       --body-color: #FFFFFF;
+       --body-bg: #FFFFFF;
+       --body-color: #000000;
    }
 }
 /* Icons */
@@ -74,7 +74,7 @@ a.button {
   padding: 8px 16px;
   border: 3px solid #141414;
   border-radius: 50px;
-  color: black;
+  color: var(--body-color);
   text-decoration: none;
   width: fit-content;
   display: flex;
