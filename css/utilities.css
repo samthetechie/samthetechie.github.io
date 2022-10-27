@@ -4,15 +4,6 @@
    --body-color: #FFFFFF;
 }
 
-/* Light mode */
-@media (prefers-color-scheme: light) {
-   :root {
-       --body-bg: #FFFFFF;
-       --body-color: #000000;
-   }
-}
-/* Icons */
-
 .right-arrow-icon {
   width: 16px;
   height: 16px;
@@ -91,10 +82,15 @@ a.button:hover {
 
 /* Footer Styling */
 
+#main-content {
+  background-color: var(--body-bg);
+}
+
 #footer {
   width: 100%;
   display: flex;
   padding: 30px 50px;
+  background-color: var(--body-bg);
   justify-content: center;
   align-items: center;
   gap: 16px;
