@@ -1,8 +1,5 @@
-/* Dark mode */
-:root {
-   --body-bg: #000000;
-   --body-color: #FFFFFF;
-}
+
+/* Icons */
 
 .right-arrow-icon {
   width: 16px;
@@ -32,7 +29,7 @@ a.icon-link:hover {
 .navbar {
   width: 100%;
   padding: 30px 50px;
-  background-color: var(--body-bg);
+  background-color: #FFFFFF;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,7 +39,7 @@ a.icon-link:hover {
 }
 
 .nav-title-link {
-  color: var(--body-color);
+  color: black;
   text-decoration: none;
 }
 
@@ -54,7 +51,7 @@ a.icon-link:hover {
 @media only screen and (max-width: 800px) {
   .navbar {
     padding: 20px 20px;
-    background-color: var(--body-bg);
+    background-color: white
   }
 }
 
@@ -65,7 +62,7 @@ a.button {
   padding: 8px 16px;
   border: 3px solid #141414;
   border-radius: 50px;
-  color: var(--body-color);
+  color: black;
   text-decoration: none;
   width: fit-content;
   display: flex;
@@ -82,15 +79,10 @@ a.button:hover {
 
 /* Footer Styling */
 
-#main-content {
-  background-color: var(--body-bg);
-}
-
 #footer {
   width: 100%;
   display: flex;
   padding: 30px 50px;
-  background-color: var(--body-bg);
   justify-content: center;
   align-items: center;
   gap: 16px;
@@ -99,7 +91,7 @@ a.button:hover {
 /* Link Styling */
 a.no-underline {
   text-decoration: none;
-  color: var(--body-color)
+  color: black
 }
 
 a.no-underline:hover {
