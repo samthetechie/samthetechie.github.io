@@ -1,4 +1,16 @@
+/* Light mode */
+:root {
+   --body-bg: #FFFFFF;
+   --body-color: #000000;
+}
 
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+   :root {
+       --body-bg: #000000;
+       --body-color: #FFFFFF;
+   }
+}
 /* Icons */
 
 .right-arrow-icon {
@@ -29,7 +41,7 @@ a.icon-link:hover {
 .navbar {
   width: 100%;
   padding: 30px 50px;
-  background-color: #FFFFFF;
+  background-color: var(--body-bg);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +51,7 @@ a.icon-link:hover {
 }
 
 .nav-title-link {
-  color: black;
+  color: var(--body-color);
   text-decoration: none;
 }
 
@@ -51,7 +63,7 @@ a.icon-link:hover {
 @media only screen and (max-width: 800px) {
   .navbar {
     padding: 20px 20px;
-    background-color: white
+    background-color: var(--body-bg);
   }
 }
 
@@ -91,7 +103,7 @@ a.button:hover {
 /* Link Styling */
 a.no-underline {
   text-decoration: none;
-  color: black
+  color: var(--body-color)
 }
 
 a.no-underline:hover {
