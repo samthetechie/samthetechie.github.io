@@ -29,7 +29,7 @@ a.icon-link:hover {
 .navbar {
   width: 100%;
   padding: 30px 50px;
-  background-color: #FFFFFF;
+  background-color: #CCCCCC;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,11 +47,66 @@ a.icon-link:hover {
   text-decoration: underline;
 }
 
+/* SD Menu Styling */
+div.sdmenu {
+	width: 185px;
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	padding-bottom: 10px;
+	background: url(../assets/sdmenu/bottom.gif) no-repeat right bottom;
+	color: #FFFFFF;
+}
+
+div.sdmenu div {
+	background: url(../assets/sdmenu/toptitle.gif) no-repeat;
+	overflow: hidden;
+}
+
+div.sdmenu div:first-child {
+	background: url(../assets/sdmenu/toptitle.gif) no-repeat;
+}
+
+div.sdmenu div.collapsed {
+	height: 25px;
+}
+
+div.sdmenu div span {
+	display: block;
+	padding: 5px 25px;
+	font-weight: bold;
+	background: url(../assets/sdmenu/expanded.gif) no-repeat 10px center;
+	cursor: default;
+	border-bottom: 1px solid #ddd;
+}
+
+div.sdmenu div.collapsed span {
+	background-image: url(../assets/sdmenu/collapsed.gif);
+}
+
+div.sdmenu div a {
+	padding: 5px 10px;
+	background: #E1F0E4;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	color: #000000;
+}
+
+div.sdmenu div a.current {
+	background: #0B5BA1;
+	color: #FFFFFF;
+}
+
+div.sdmenu div a:hover {
+	background: #0B5BA1;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
   .navbar {
     padding: 20px 20px;
-    background-color: white
+    background-color: #CCCCCC;
   }
 }
 
