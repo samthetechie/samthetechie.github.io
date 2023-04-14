@@ -1,118 +1,206 @@
+<!--                                                                              
+                     _   _          _            _     _                           
+                    | | | |        | |          | |   (_)                          
+ ___  __ _ _ __ ___ | |_| |__   ___| |_ ___  ___| |__  _  ___   
+/ __|/ _` | '_ ` _ \| __| '_ \ / _ \ __/ _ \/ __| '_ \| |/ _ \ 
+\__ \ (_| | | | | | | |_| | | |  __/ ||  __/ (__| | | | |  __/
+|___/\__,_|_| |_| |_|\__|_| |_|\___|\__\___|\___|_| |_|_|\___|
+HoomanBean(w/ Voice), Engineer, Entrepreneur, H4ck3r, Gardener
+-->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="icon" href="assets/icons/favicon.ico" />
-    <title>Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</title>
-    <meta name="description" content="A portfolio of the projects I have worked on and their impact, the services I provide, the skills that I have and some of my writings.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/typography.css">
-    <link rel="stylesheet" href="../css/utilities.css">
-    <script defer src="../js/script.js"></script>
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="../index.html">
-        <span class="nav-title">Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</span>
-        <a class="button" href="mailto:samuelcarlisle@gmail.com">
-          <span class="button-text">Contact Me</span>
-        </a>
-      </a>
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="./assets/icons/favicon.ico" />
+  <title>Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</title>
+  <meta name="description" content="A portfolio of the projects I have worked on and their impact, the services I provide, the skills that I have and some of my writings.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/utilities.css">
+  <script defer src="../js/script.js"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <a class="nav-title-link" href="../index.html">
+      <span class="nav-title">Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</span><span class="nav-title" title="menu" onclick="openNav()" class="button">≡</span>
+    </a>
+  </div>
+  <!-- The overlay -->
+  <div id="myNav" class="overlay">
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <p>Home:</p>
+      <hr>
+      <a href="./index.html">> Home</a>
+      <a href="./home/bio.html">> Bio</a>
+      <a href="./home/contact.html">> Contact</a>
+      <p>Portfolio > Projects:</p>
+      <hr>
+      <a href="./projects/reprap.html">> Reprap Opensource 3D Printer</a>
+      <a href="./projects/animachine.html">> Animachine @Youin3D, Berlin</a>
+      <a href="./projects/buildingbanter.html">> Industrial Energy Monitoring</a>
+      <a href="./projects/classic4.html">> Medical Device Firmware</a>
+      <a href="./projects/nanode.html">> Nanode, DIY IoT Device</a>
+      <a href="./projects/ltfhc.html">> Electronic Medical Records</a>
+      <a href="./projects/thinkfarm.html">> Sustainability Research</a>
+      <a href="./projects/ose.html">> Open Source Ecology</a>
+      <p>Portfolio > Actions:</p>
+      <hr>
+      <a href="./actions/ucloccupation.html">> UCL Occupation</a>
+      <a href="./actions/occupylondon.html">> Occupy London Tech Team</a>
+      <a href="./actions/cryptoparty.html">> Cryptoparty London</a>
+      <a href="./actions/hurricanesandy.html">> Hurricane Hackers</a>
+      <a href="./actions/fliehkraft.html">> Fliehkraft, Berlin</a>
+      <a href="./actions/ecovillage.html">> Eco Village</a>
+      <p>Portfolio > Academia:</p>
+      <hr>
+      <a href="./academia/ch.html">> Overview</a>
+      <a href="./academia/durham.html">> About</a>
+      <a href="./academia/mit.html">> Curriculum Vitae</a>
+      <p>Portfolio > Creative:</p>
+      <hr>
+      <a href="./art/writing.html">> Writing</a>
+      <a href="./art/artwork.html">> Artwork</a>
+      <a href="./art/concepts.html">> Concepts & Design</a>
+      <p>Portfolio > Talks:</p>
+      <hr>
+      <a href="./talks/ccc.html">> Assembly + Lightning Talk @CCC</a>
+      <a href="./talks/pp_intl.html">> RW Society @PP Intl</a>
+      <a href="./talks/fabrica.html">> Trust but Verify @Fabrica</a>
+      <a href="./talks/frontline.html">> Revolutionary Apps @Frontline Club</a>
+      <a href="./talks/talklist.html">> List: Talks</a>
+      <p>Lists of things I like:</p>
+      <hr>
+      <a href="./art/poetrylist.html">> Poetry</a>
+      <a href="./art/filmlist.html">> Film</a>
+      <a href="./art/booklist.html">> Books</a>
+      <a href="./art/musiclist.html">> Music</a>
+      <p>Service > Consulting</p>
+      <hr>
+      <a href="./service/engineering.html">> IT / Engineering</a>
+      <a href="./service/security.html">> Security</a>
+      <a href="./service/sustainability.html">> Sustainability</a>
+      <p>Service > Programming:</p>
+      <hr>
+      <a href="./service/programming.html">> Examples of My Work</a>
+      <p>Service > Webdev:</p>
+      <hr>
+      <a href="./service/web.html">> Webdesign and Development</a>
+      <a href="./service/web_examples.html">> Examples of My Work</a>
+      <a href="./service/web_feedback.html">> Client Feedback</a>
+      <p>Service > PC Repair</p>
+      <hr>
+      <a href="./service/onsite_repair.html">> Onsite Support</a>
+      <a href="./service/remote_repair.html">> Remote Support</a>
+      <a href="./service/repair_feedback.html">> Reviews</a>
+      <p>Service > Clients:</p>
+      <hr>
+      <a href="./service/current_clients.html">> Current Clients</a>
+      <a href="./service/previous_clients.html">> Previous Clients</a>
+      <p>Service > Personal:</p>
+      <hr>
+      <a href="./service/mentoring.html">> Mentoring</a>
+      <a href="./service/business_development.html">> Business Development</a>
     </div>
-    <!-- MAIN PAGE CONTENT -->
-    <div id="main-content">
-      <!-- PROJECT HEADER -->
-      <div id="project-header">
-<div class="main-title">Security Engineering</div>
-<div class="body-text">
-In the age where most devices have an IP address, Security Engineering in Hardware Design and Product Development is more critical than ever. It is important therefore to ensure robustness from the ground up.
+  </div>
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span onclick="openNav()">open</span>
+  <!-- MAIN PAGE CONTENT -->
+  <div id="main-content">
+    <!-- PROJECT HEADER -->
+    <div id="project-header">
+      <div class="main-title">Security Engineering</div>
+      <div class="body-text">
+        In the age where most devices have an IP address, Security Engineering in Hardware Design and Product Development is more critical than ever. It is important therefore to ensure robustness from the ground up.
 
-In today's interconnected world, safeguarding hardware design and product development is crucial to maintaining integrity across all aspects of your business. With our expertise in security engineering, we help you create secure products that protect sensitive information while adhering to industry standards.</div>
+      In today's interconnected world, safeguarding hardware design and product development is crucial to maintaining integrity across all aspects of your business. With our expertise in security engineering, we help you create secure products that protect sensitive information while adhering to industry standards.</div>
 
-<div class="subheader-text">Services Offered as a Security Engineer</div>
-<div class="body-text">
-Secure Hardware Design: collaborate with your team to develop robust hardware designs that incorporate built-in security features such as encryption modules, tamper detection mechanisms, and secure boot processes – effectively mitigating potential threats at the hardware level.<br><br>
-Supply Chain Protection: evaluate your supply chain for vulnerabilities and implement risk mitigation strategies; ensuring components remain untampered throughout the manufacturing process while minimizing exposure to counterfeit or compromised parts.<br><br>
-Firmware Security: review firmware code for potential vulnerabilities using static analysis tools; identify weaknesses within embedded software that could be exploited by malicious actors seeking unauthorized access or control over devices.<br><br>
-Compliance with Industry Standards: ensure all aspects of product design align with relevant industry standards (e.g., FIPS 140-2, ISO/IEC 15408) for enhanced credibility and customer trust; maintain compliance through regular audits or certifications where necessary.<br><br>
-End-to-end Encryption & Secure Communication Protocols: implement strong end-to-end encryption methods on data transmitted between devices preventing eavesdropping or interception further bolstering privacy protection during data transfers interactions within connected ecosystems.<br><br>
-Regular Hardware Security Audits & Updates: conduct periodic security audits on implemented solutions monitoring any emerging threats adjusting defense mechanisms accordingly provide ongoing support to ensure sustained levels of resilience against evolving cyber attacks and enhancing firmware by providing updates and patches to mitigate newly discovered vulnerabilities in order to maximize longevity of deployed systems.</div>
-        <div class="subheader-text">Security Engineering / Cybersecurity Consultant</div>
-        <div class="body-text">Having secure hardware and systems is only a part of the puzzle, those systems also exist and are used in the world, by real people and on the public internet. Together we can create personalized security strategies, reliable network or hardware designs or custom-made employee training programs that reinforce your business against cyberattacks. Don't leave the safety of your digital domain to chance – let's collaborate, tell me about the needs of your organisation and I will provide exceptional service to bring you peace of mind and guide you towards a secure future!</div>
-        <div id="project-details">
-          <div class="subheader-text">Background</div>
-          <div class="project-details-content">
-            <div class="body-text">With a strong background in technology and engineering and over 13 years of experience actively participating in the hacker scene, from grassroots and the underground to industry including involvement with groundbreaking movements such as the Cryptoparty Movement and the Chaos Computer Club (CCC), I am well-equipped to offer my expertise as a Cybersecurity Expert/Consultant. My primary goal is to utilize my extensive knowledge of security to help orginisations engaged in social change and ethical businesses to protect their digital assets from cyber threats effectively. <br>
-                <br>
-                <image src="../assets/images/cryptopartylondon.jpg" style="float: right; height: 300px; width: 400px; margin-left: 20px;"> 
-                The Cryptoparty Movement has been empowering individuals around the world by teaching them how to use encryption tools and techniques that enhance privacy protection. As an active participant in this movement, I have witnessed firsthand its tremendous impact on raising awareness about data privacy and fostering a culture where people prioritize their online safety. <br>
-                
-                <br>           
-                Chaos Computer Club (CCC) As one of Europe's largest hacker organizations, CCC has played a crucial role in advocating for transparency, freedom of information, and personal privacy through various initiatives including conferences, workshops, publications and projects that address relevant issues within society. My experience with CCC has provided me with valuable insights into critical aspects of cybersecurity while exposing me to state-of-the-art methods employed by ethical hackers worldwide.
-                </div> 
-<div class="subheader-text">Services Offered as a Cybersecurity Expert/Consultant</div>
-<div class="body-text">
-                 <image src="../assets/images/keep_calm_hack_on.jpg" style="float: right; height: 500px; width: 286px; margin-left: 20px;">
-Security Risk Assessment: conduct comprehensive assessments on your company's digital infrastructure using advanced threat modeling methodologies; identifying vulnerabilities or weaknesses susceptible to potential cyber attacks. <br>
-                <br> Secure Network Design: robust network architecture tailored specifically for your business needs; utilizing best practices such as DMZs, VPNs, firewalls configuration optimization while adhering to industry standards ensuring maximum protection against cyber threats. <br>
-                <br> Penetration Testing Perform rigorous penetration testing simulating real-world hacking scenarios uncovering potential attack vectors before malicious actors exploit them effectively safeguarding your organization from costly data breaches or downtime incidents. <br>
-                <br> Employee Training & Awareness Programs: develop customized training programs aimed at educating employees about current cybersecurity risks, phishing schemes, social engineering tactics and so on thereby cultivating responsible behavior fostering a security-conscious culture within the workplace. <br>
-                <br> Incident Response Planning: preparing comprehensive incident response plans outlining procedures to follow in case of cybersecurity breaches, ensuring quick containment and minimal damage to your business operations. <br>
-                <br> Regulatory Compliance Assistance: provide guidance on staying compliant with industry-specific regulations such as GDPR, HIPAA, PCI-DSS; guaranteeing that your organization meets all legal requirements minimizing potential fines or penalties due to non-compliance. <br>
-                <br> With my background in Cryptoparty Movement, Chaos Computer Club (CCC), and extensive hands-on experience in cybersecurity, I am confident about assisting businesses in safeguarding their digital assets from ever-evolving cyber threats through strategic planning and effective implementation of robust security practices.</div>
+      <div class="subheader-text">Services Offered as a Security Engineer</div>
+      <div class="body-text">
+        Secure Hardware Design: collaborate with your team to develop robust hardware designs that incorporate built-in security features such as encryption modules, tamper detection mechanisms, and secure boot processes – effectively mitigating potential threats at the hardware level.<br><br>
+        Supply Chain Protection: evaluate your supply chain for vulnerabilities and implement risk mitigation strategies; ensuring components remain untampered throughout the manufacturing process while minimizing exposure to counterfeit or compromised parts.<br><br>
+        Firmware Security: review firmware code for potential vulnerabilities using static analysis tools; identify weaknesses within embedded software that could be exploited by malicious actors seeking unauthorized access or control over devices.<br><br>
+        Compliance with Industry Standards: ensure all aspects of product design align with relevant industry standards (e.g., FIPS 140-2, ISO/IEC 15408) for enhanced credibility and customer trust; maintain compliance through regular audits or certifications where necessary.<br><br>
+        End-to-end Encryption & Secure Communication Protocols: implement strong end-to-end encryption methods on data transmitted between devices preventing eavesdropping or interception further bolstering privacy protection during data transfers interactions within connected ecosystems.<br><br>
+      Regular Hardware Security Audits & Updates: conduct periodic security audits on implemented solutions monitoring any emerging threats adjusting defense mechanisms accordingly provide ongoing support to ensure sustained levels of resilience against evolving cyber attacks and enhancing firmware by providing updates and patches to mitigate newly discovered vulnerabilities in order to maximize longevity of deployed systems.</div>
+      <div class="subheader-text">Security Engineering / Cybersecurity Consultant</div>
+      <div class="body-text">Having secure hardware and systems is only a part of the puzzle, those systems also exist and are used in the world, by real people and on the public internet. Together we can create personalized security strategies, reliable network or hardware designs or custom-made employee training programs that reinforce your business against cyberattacks. Don't leave the safety of your digital domain to chance – let's collaborate, tell me about the needs of your organisation and I will provide exceptional service to bring you peace of mind and guide you towards a secure future!</div>
+      <div id="project-details">
+        <div class="subheader-text">Background</div>
+        <div class="project-details-content">
+          <div class="body-text">With a strong background in technology and engineering and over 13 years of experience actively participating in the hacker scene, from grassroots and the underground to industry including involvement with groundbreaking movements such as the Cryptoparty Movement and the Chaos Computer Club (CCC), I am well-equipped to offer my expertise as a Cybersecurity Expert/Consultant. My primary goal is to utilize my extensive knowledge of security to help orginisations engaged in social change and ethical businesses to protect their digital assets from cyber threats effectively. <br>
+            <br>
+            <image src="../assets/images/cryptopartylondon.jpg" style="float: right; height: 300px; width: 400px; margin-left: 20px;"> 
+              The Cryptoparty Movement has been empowering individuals around the world by teaching them how to use encryption tools and techniques that enhance privacy protection. As an active participant in this movement, I have witnessed firsthand its tremendous impact on raising awareness about data privacy and fostering a culture where people prioritize their online safety. <br>
+              
+              <br>           
+              Chaos Computer Club (CCC) As one of Europe's largest hacker organizations, CCC has played a crucial role in advocating for transparency, freedom of information, and personal privacy through various initiatives including conferences, workshops, publications and projects that address relevant issues within society. My experience with CCC has provided me with valuable insights into critical aspects of cybersecurity while exposing me to state-of-the-art methods employed by ethical hackers worldwide.
+            </div> 
+            <div class="subheader-text">Services Offered as a Cybersecurity Expert/Consultant</div>
+            <div class="body-text">
+             <image src="../assets/images/keep_calm_hack_on.jpg" style="float: right; height: 500px; width: 286px; margin-left: 20px;">
+              Security Risk Assessment: conduct comprehensive assessments on your company's digital infrastructure using advanced threat modeling methodologies; identifying vulnerabilities or weaknesses susceptible to potential cyber attacks. <br>
+              <br> Secure Network Design: robust network architecture tailored specifically for your business needs; utilizing best practices such as DMZs, VPNs, firewalls configuration optimization while adhering to industry standards ensuring maximum protection against cyber threats. <br>
+              <br> Penetration Testing Perform rigorous penetration testing simulating real-world hacking scenarios uncovering potential attack vectors before malicious actors exploit them effectively safeguarding your organization from costly data breaches or downtime incidents. <br>
+              <br> Employee Training & Awareness Programs: develop customized training programs aimed at educating employees about current cybersecurity risks, phishing schemes, social engineering tactics and so on thereby cultivating responsible behavior fostering a security-conscious culture within the workplace. <br>
+              <br> Incident Response Planning: preparing comprehensive incident response plans outlining procedures to follow in case of cybersecurity breaches, ensuring quick containment and minimal damage to your business operations. <br>
+              <br> Regulatory Compliance Assistance: provide guidance on staying compliant with industry-specific regulations such as GDPR, HIPAA, PCI-DSS; guaranteeing that your organization meets all legal requirements minimizing potential fines or penalties due to non-compliance. <br>
+              <br> With my background in Cryptoparty Movement, Chaos Computer Club (CCC), and extensive hands-on experience in cybersecurity, I am confident about assisting businesses in safeguarding their digital assets from ever-evolving cyber threats through strategic planning and effective implementation of robust security practices.</div>
+            </div>
           </div>
-        </div>
-        <!-- IMAGE GALLERY -->
-        <div id="project-gallery">
-          <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
-          <div class="subheader-text">Image Gallery</div>
-          <div class="project-gallery-content">
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/lqdn.jpg" class="gallery-image">
-              <span class="image-caption"><3 to LQDN. My favourite t-shirt</span>
+          <!-- IMAGE GALLERY -->
+          <div id="project-gallery">
+            <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+            <div class="subheader-text">Image Gallery</div>
+            <div class="project-gallery-content">
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/lqdn.jpg" class="gallery-image">
+                <span class="image-caption"><3 to LQDN. My favourite t-shirt</span>
+                </div>
+                <div class="gallery-image-container half-width">
+                  <img loading="lazy" src="../assets/images/tf_hw.jpg" class="gallery-image">
+                  <span class="image-caption">Full stack: Software. Hardware. Networking. Solar. Encrypted Data Sync over HF Radio. OTA Updates via UMTS / or LAN where available. Rugged. Ultra-remote deployment. Security principles applied throughout the design. Complex system design, integration, building and testing.</span>
+                </div>
+                <div class="gallery-image-container half-width">
+                  <img loading="lazy" src="../assets/images/ccc_camp.jpg" class="gallery-image">
+                  <span class="image-caption">CCC Summer Camp</span>
+                </div>                        
+                <div class="gallery-image-container half-width">
+                  <img loading="lazy" src="../assets/images/occupy_boi.jpg" class="gallery-image">
+                  <span class="image-caption">OccupyLSX NOC, Bank of Ideas</span>
+                </div>                        
+                <div class="gallery-image-container half-width">
+                  <img loading="lazy" src="../assets/images/hacker_bbq.jpg" class="gallery-image">
+                  <span class="image-caption">Hacker BBQ. Macs *are* useful after all!</span>
+                </div>            
+                <div class="gallery-image-container half-width">
+                  <img loading="lazy" src="../assets/images/occupy_1.jpg" class="gallery-image">
+                  <span class="image-caption">OccupyLSX Tech</span>
+                </div>
+                <div class="gallery-image-container half-width">
+                  <img loading="lazy" src="../assets/images/occupy_8.jpg" class="gallery-image">
+                  <span class="image-caption">OccupyLSX Tech, first days</span>
+                </div>
+                <div class="gallery-image-container half-width">
+                  <img loading="lazy" src="../assets/images/occupy_4.jpg" class="gallery-image">
+                  <span class="image-caption">OccupyLSX Tech, some friends from the internet are here</span>
+                </div>
+                <div class="gallery-image-container half-width">
+                  <img loading="lazy" src="../assets/images/occupy_6.jpg" class="gallery-image">
+                  <span class="image-caption">OccupyLSX Tech, St Pauls</span>
+                </div>            
+              </div>
             </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/tf_hw.jpg" class="gallery-image">
-              <span class="image-caption">Full stack: Software. Hardware. Networking. Solar. Encrypted Data Sync over HF Radio. OTA Updates via UMTS / or LAN where available. Rugged. Ultra-remote deployment. Security principles applied throughout the design. Complex system design, integration, building and testing.</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/ccc_camp.jpg" class="gallery-image">
-              <span class="image-caption">CCC Summer Camp</span>
-            </div>                        
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/occupy_boi.jpg" class="gallery-image">
-              <span class="image-caption">OccupyLSX NOC, Bank of Ideas</span>
-            </div>                        
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/hacker_bbq.jpg" class="gallery-image">
-              <span class="image-caption">Hacker BBQ. Macs *are* useful after all!</span>
-            </div>            
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/occupy_1.jpg" class="gallery-image">
-              <span class="image-caption">OccupyLSX Tech</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/occupy_8.jpg" class="gallery-image">
-              <span class="image-caption">OccupyLSX Tech, first days</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/occupy_4.jpg" class="gallery-image">
-              <span class="image-caption">OccupyLSX Tech, some friends from the internet are here</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/occupy_6.jpg" class="gallery-image">
-              <span class="image-caption">OccupyLSX Tech, St Pauls</span>
-            </div>            
           </div>
-        </div>
-      </div>
-      <!-- FOOTER -->
-      <div id="footer">
-        <a class="icon-link" href="mailto:samuelcarlisle@gmail.com">
-          <image src="../assets/icons/mail.svg" class="footer-icon" />
-        </a>
-      </div>
-  </body>
-</html>
+          <!-- FOOTER -->
+          <div id="footer">
+            <a class="icon-link" href="mailto:samuelcarlisle@gmail.com">
+              <image src="../assets/icons/mail.svg" class="footer-icon" />
+            </a>
+          </div>
+        </body>
+        </html>

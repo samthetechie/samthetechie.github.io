@@ -1,86 +1,174 @@
+<!--                                                                              
+                     _   _          _            _     _                           
+                    | | | |        | |          | |   (_)                          
+ ___  __ _ _ __ ___ | |_| |__   ___| |_ ___  ___| |__  _  ___   
+/ __|/ _` | '_ ` _ \| __| '_ \ / _ \ __/ _ \/ __| '_ \| |/ _ \ 
+\__ \ (_| | | | | | | |_| | | |  __/ ||  __/ (__| | | | |  __/
+|___/\__,_|_| |_| |_|\__|_| |_|\___|\__\___|\___|_| |_|_|\___|
+HoomanBean(w/ Voice), Engineer, Entrepreneur, H4ck3r, Gardener
+-->
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-     <link rel="icon" href="../assets/images/favicon.ico" />
-     <title>Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</title>
-    <meta name="description" content="A portfolio of the projects I have worked on and their impact, the services I provide, the skills that I have and some of my writings.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="../assets/images/favicon.ico" />
+  <title>Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</title>
+  <meta name="description" content="A portfolio of the projects I have worked on and their impact, the services I provide, the skills that I have and some of my writings.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/typography.css">
-    <link rel="stylesheet" href="../css/utilities.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/utilities.css">
 
-		<script defer src="../js/script.js"></script>
-	</head>
-	<body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="../index.html">
+  <script defer src="../js/script.js"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <a class="nav-title-link" href="../index.html">
 
-        <span class="nav-title">Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</span>
+      <span class="nav-title">Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</span>
+      <span class="nav-title" title="menu" onclick="openNav()" class="button">≡</span>
+    </a>
+  </div>
 
-        <a class="button" href="mailto:samuelcarlisle@gmail.com">
-          <span class="button-text">Contact Me</span>
-        </a>
-      </a>
+  <!-- The overlay -->
+  <div id="myNav" class="overlay">
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <p>Home:</p>
+      <hr>
+      <a href="./index.html">> Home</a>
+      <a href="./home/bio.html">> Bio</a>
+      <a href="./home/contact.html">> Contact</a>
+      <p>Portfolio > Projects:</p>
+      <hr>
+      <a href="./projects/reprap.html">> Reprap Opensource 3D Printer</a>
+      <a href="./projects/animachine.html">> Animachine @Youin3D, Berlin</a>
+      <a href="./projects/buildingbanter.html">> Industrial Energy Monitoring</a>
+      <a href="./projects/classic4.html">> Medical Device Firmware</a>
+      <a href="./projects/nanode.html">> Nanode, DIY IoT Device</a>
+      <a href="./projects/ltfhc.html">> Electronic Medical Records</a>
+      <a href="./projects/thinkfarm.html">> Sustainability Research</a>
+      <a href="./projects/ose.html">> Open Source Ecology</a>
+      <p>Portfolio > Actions:</p>
+      <hr>
+      <a href="./actions/ucloccupation.html">> UCL Occupation</a>
+      <a href="./actions/occupylondon.html">> Occupy London Tech Team</a>
+      <a href="./actions/cryptoparty.html">> Cryptoparty London</a>
+      <a href="./actions/hurricanesandy.html">> Hurricane Hackers</a>
+      <a href="./actions/fliehkraft.html">> Fliehkraft, Berlin</a>
+      <a href="./actions/ecovillage.html">> Eco Village</a>
+      <p>Portfolio > Academia:</p>
+      <hr>
+      <a href="./academia/ch.html">> Overview</a>
+      <a href="./academia/durham.html">> About</a>
+      <a href="./academia/mit.html">> Curriculum Vitae</a>
+      <p>Portfolio > Creative:</p>
+      <hr>
+      <a href="./art/writing.html">> Writing</a>
+      <a href="./art/artwork.html">> Artwork</a>
+      <a href="./art/concepts.html">> Concepts & Design</a>
+      <p>Portfolio > Talks:</p>
+      <hr>
+      <a href="./talks/ccc.html">> Assembly + Lightning Talk @CCC</a>
+      <a href="./talks/pp_intl.html">> RW Society @PP Intl</a>
+      <a href="./talks/fabrica.html">> Trust but Verify @Fabrica</a>
+      <a href="./talks/frontline.html">> Revolutionary Apps @Frontline Club</a>
+      <a href="./talks/talklist.html">> List: Talks</a>
+      <p>Lists of things I like:</p>
+      <hr>
+      <a href="./art/poetrylist.html">> Poetry</a>
+      <a href="./art/filmlist.html">> Film</a>
+      <a href="./art/booklist.html">> Books</a>
+      <a href="./art/musiclist.html">> Music</a>
+      <p>Service > Consulting</p>
+      <hr>
+      <a href="./service/engineering.html">> IT / Engineering</a>
+      <a href="./service/security.html">> Security</a>
+      <a href="./service/sustainability.html">> Sustainability</a>
+      <p>Service > Programming:</p>
+      <hr>
+      <a href="./service/programming.html">> Examples of My Work</a>
+      <p>Service > Webdev:</p>
+      <hr>
+      <a href="./service/web.html">> Webdesign and Development</a>
+      <a href="./service/web_examples.html">> Examples of My Work</a>
+      <a href="./service/web_feedback.html">> Client Feedback</a>
+      <p>Service > PC Repair</p>
+      <hr>
+      <a href="./service/onsite_repair.html">> Onsite Support</a>
+      <a href="./service/remote_repair.html">> Remote Support</a>
+      <a href="./service/repair_feedback.html">> Reviews</a>
+      <p>Service > Clients:</p>
+      <hr>
+      <a href="./service/current_clients.html">> Current Clients</a>
+      <a href="./service/previous_clients.html">> Previous Clients</a>
+      <p>Service > Personal:</p>
+      <hr>
+      <a href="./service/mentoring.html">> Mentoring</a>
+      <a href="./service/business_development.html">> Business Development</a>
     </div>
+  </div>
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span onclick="openNav()">open</span>
+  <!-- MAIN PAGE CONTENT -->
+  <div id="main-content">
 
-    <!-- MAIN PAGE CONTENT -->
-    <div id="main-content">
+    <!-- PROJECT HEADER -->
+    <div id="project-header">
 
-      <!-- PROJECT HEADER -->
-      <div id="project-header">
-
-        <div class="main-title">Classic 4</div>
-        <div class="body-text">Electro Accupuncture / TENS Device. Classic 4 @ Harmony Medical. Languages: c, cpp, asm, python. As a Firmware Engineer and lead on the Classic 4 Electro Acupuncture/TENS treatment device project, my main focus was software development of the device firmware. I enhanced UI/UX, expanded its treatment modes, and improved user control via keypad. My contributions included bug fixes, adding features, removing unnessary code and in some cases extensive refactoring all within the software development processes outlined in "IEC 62304 – medical device software – software life cycle processes" and of a sufficient quality to pass a rigourous audit. The development involved embedded software programming in CPP, C, and PIC assembly.</div>
-        <image class="project-header-image" src="../assets/images/classic4.jpg">
+      <div class="main-title">Classic 4</div>
+      <div class="body-text">Electro Accupuncture / TENS Device. Classic 4 @ Harmony Medical. Languages: c, cpp, asm, python. As a Firmware Engineer and lead on the Classic 4 Electro Acupuncture/TENS treatment device project, my main focus was software development of the device firmware. I enhanced UI/UX, expanded its treatment modes, and improved user control via keypad. My contributions included bug fixes, adding features, removing unnessary code and in some cases extensive refactoring all within the software development processes outlined in "IEC 62304 – medical device software – software life cycle processes" and of a sufficient quality to pass a rigourous audit. The development involved embedded software programming in CPP, C, and PIC assembly.</div>
+      <image class="project-header-image" src="../assets/images/classic4.jpg">
       </div>
 
 
       <div id="project-details">
         <div class="subheader-text">More Details</div>
         <div class="project-details-content">
-<div class="body-text">As the Lead Firmware Engineer on the Classic 4 Electro Acupuncture/TENS treatment device project, I played a pivotal role in making major hardware and software enhancements to elevate user experience. Involved in various stages of development—from prototype to post-production Q&A—I contributed significantly throughout the medical device's life cycle, including both software and hardware alterations.
-Although I wasn't part of the initial design phase, I took charge of firmware (embedded engineering) development and effectively guided the product towards a successful market launch.</div>
-<div class="body-text">One critical area was refining UI/UX by simplifying controls through keypad input modifications that allowed users to navigate seamlessly between various functionality options more accessible. Additionally, I increased available treatment modes giving users greater flexibility in their therapy choices.</div>
-<div class="body-text">To ensure reliability and usability of our product throughout the process; my technical work also focused on improving the quality of the codebase by testing and debugging issues found in the existing code (I inherited well over 9,000 lines of cpp code written by a total of 3 different authors). Sometimes it was smooth sailing and sometimes I had to implement major refactors but the reward was cleaner, more reliable code and increased device performance.</div>
-<div class="body-text">​Moreover, adhering to strict regulatory requirements for medical devices was crucial to ensure the product could be sold in both the UK and European markets. As this device would likely be utilized in settings with sensitive equipment, such as hospitals, it was imperative that it did not interfere with other devices' operations. To achieve this, we designed and were audited according to "IEC 62304 – medical device software – software life cycle processes". This process involved meticulous documentation practices and stringent testing procedures, as well as a revision of the mainboard to enhance electromagnetic compatibility (EMC) of the device. By doing so, we minimized interference between our product and surrounding equipment, making it safer and more reliable for use in professional environments.</div>
+          <div class="body-text">As the Lead Firmware Engineer on the Classic 4 Electro Acupuncture/TENS treatment device project, I played a pivotal role in making major hardware and software enhancements to elevate user experience. Involved in various stages of development—from prototype to post-production Q&A—I contributed significantly throughout the medical device's life cycle, including both software and hardware alterations.
+          Although I wasn't part of the initial design phase, I took charge of firmware (embedded engineering) development and effectively guided the product towards a successful market launch.</div>
+          <div class="body-text">One critical area was refining UI/UX by simplifying controls through keypad input modifications that allowed users to navigate seamlessly between various functionality options more accessible. Additionally, I increased available treatment modes giving users greater flexibility in their therapy choices.</div>
+          <div class="body-text">To ensure reliability and usability of our product throughout the process; my technical work also focused on improving the quality of the codebase by testing and debugging issues found in the existing code (I inherited well over 9,000 lines of cpp code written by a total of 3 different authors). Sometimes it was smooth sailing and sometimes I had to implement major refactors but the reward was cleaner, more reliable code and increased device performance.</div>
+          <div class="body-text">​Moreover, adhering to strict regulatory requirements for medical devices was crucial to ensure the product could be sold in both the UK and European markets. As this device would likely be utilized in settings with sensitive equipment, such as hospitals, it was imperative that it did not interfere with other devices' operations. To achieve this, we designed and were audited according to "IEC 62304 – medical device software – software life cycle processes". This process involved meticulous documentation practices and stringent testing procedures, as well as a revision of the mainboard to enhance electromagnetic compatibility (EMC) of the device. By doing so, we minimized interference between our product and surrounding equipment, making it safer and more reliable for use in professional environments.</div>
           <div class="body-text">
-                  <div class="subheader-text">About the Device: Classic 4</div>
-<pre>Here are some details about the device's capabilities, modes and features:
--Ability to treat different patterns with different electricity parameters.
--Capable of tonify one channel and sedate another channel at the same time.
--Acting concurrently as electro-acupuncture stimulator and TENS / MNS unit.
+            <div class="subheader-text">About the Device: Classic 4</div>
+            <pre>Here are some details about the device's capabilities, modes and features:
+              -Ability to treat different patterns with different electricity parameters.
+              -Capable of tonify one channel and sedate another channel at the same time.
+              -Acting concurrently as electro-acupuncture stimulator and TENS / MNS unit.
 
-Single Mode: the parameters of the four channels (outputs) are independent
-of each other and controllable by the user.
+              Single Mode: the parameters of the four channels (outputs) are independent
+              of each other and controllable by the user.
 
-Paired Mode: four channels are arranged in two pairs (CH1 & CH2)
-and (CH3 & CH4) and the pulses on each pair are simultaneous (+/-20 microseconds).
+              Paired Mode: four channels are arranged in two pairs (CH1 & CH2)
+              and (CH3 & CH4) and the pulses on each pair are simultaneous (+/-20 microseconds).
 
-Sync Mode: four channels are synchronised in time and share the same parameters.
+              Sync Mode: four channels are synchronised in time and share the same parameters.
 
-Sequential Mode: parameters programmatically change over the course of the treatment.
+              Sequential Mode: parameters programmatically change over the course of the treatment.
 
-Compact and Elegant design. Four output channels that can stimulate
-up to a total of eight needles, or four pairs of electrodes.
+              Compact and Elegant design. Four output channels that can stimulate
+              up to a total of eight needles, or four pairs of electrodes.
 
-A wide range of frequencies between 0.5 Hz and 200 Hz, in 24 pre-set settings.
+              A wide range of frequencies between 0.5 Hz and 200 Hz, in 24 pre-set settings.
 
-The outputs can be symmetrical biphasic or monophasic up to 60mA across a
-1K resistive load, with an adjustable pulse width of 64, 128, 192
-or 256 microseconds. The outputs is locked to 20mA by default for 
-acupuncture stimulating. Channel short-circuits protection.
+              The outputs can be symmetrical biphasic or monophasic up to 60mA across a
+              1K resistive load, with an adjustable pulse width of 64, 128, 192
+              or 256 microseconds. The outputs is locked to 20mA by default for 
+              acupuncture stimulating. Channel short-circuits protection.
 
-Audio signals to indicate operational error and end of treatment.
+              Audio signals to indicate operational error and end of treatment.
 
-25 Pre-set programmes. 8 user defined programmes (save/load slots).
+              25 Pre-set programmes. 8 user defined programmes (save/load slots).
 
-Large back-lit LCD screen 128 x 128 dots.
-</pre>
-</div>
+              Large back-lit LCD screen 128 x 128 dots.
+            </pre>
+          </div>
         </div>
       </div>
 
@@ -90,38 +178,38 @@ Large back-lit LCD screen 128 x 128 dots.
         <div class="subheader-text">Image Gallery</div>
         <div class="project-gallery-content">
 
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/harmony001.jpg" class="gallery-image">
-              <span class="image-caption">My office at Harmony Medical. Nice and quiet, perfect for firmware development / coding. :)</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/harmony002.jpg" class="gallery-image">
-              <span class="image-caption">My old desk (filled with engineering notes, maths textbooks and books about programming and hacking).</span>
-            </div>
-            <div class="gallery-image-container">
-              <img loading="lazy" src="../assets/images/harmony003.jpg" class="gallery-image">
-              <span class="image-caption">Photo from the other end of the room.</span>
-            </div>
-            <div class="gallery-image-container">
-              <img loading="lazy" src="../assets/images/harmony004.jpg" class="gallery-image">
-              <span class="image-caption">Soldering station and hardware hacking area for protoyping electronics.</span>
-            </div>
-            <div class="gallery-image-container">
-              <img loading="lazy" src="../assets/images/harmony005.jpg" class="gallery-image">
-              <span class="image-caption">Trusty pillar drill.</span>
-            </div>
-            <div class="gallery-image-container">
-              <img loading="lazy" src="../assets/images/harmony006.jpg" class="gallery-image">
-              <span class="image-caption">Another photo from the prototyping / hardware lab on the top floor.</span>
-            </div>
-            <div class="gallery-image-container">
-              <img loading="lazy" src="../assets/images/harmony007.jpg" class="gallery-image">
-              <span class="image-caption">Electronic Components.</span>
-            </div>  
-            <div class="gallery-image-container">
-              <img loading="lazy" src="../assets/images/harmony008.jpg" class="gallery-image">
-              <span class="image-caption">More Components.</span>
-            </div>                                                            
+          <div class="gallery-image-container half-width">
+            <img loading="lazy" src="../assets/images/harmony001.jpg" class="gallery-image">
+            <span class="image-caption">My office at Harmony Medical. Nice and quiet, perfect for firmware development / coding. :)</span>
+          </div>
+          <div class="gallery-image-container half-width">
+            <img loading="lazy" src="../assets/images/harmony002.jpg" class="gallery-image">
+            <span class="image-caption">My old desk (filled with engineering notes, maths textbooks and books about programming and hacking).</span>
+          </div>
+          <div class="gallery-image-container">
+            <img loading="lazy" src="../assets/images/harmony003.jpg" class="gallery-image">
+            <span class="image-caption">Photo from the other end of the room.</span>
+          </div>
+          <div class="gallery-image-container">
+            <img loading="lazy" src="../assets/images/harmony004.jpg" class="gallery-image">
+            <span class="image-caption">Soldering station and hardware hacking area for protoyping electronics.</span>
+          </div>
+          <div class="gallery-image-container">
+            <img loading="lazy" src="../assets/images/harmony005.jpg" class="gallery-image">
+            <span class="image-caption">Trusty pillar drill.</span>
+          </div>
+          <div class="gallery-image-container">
+            <img loading="lazy" src="../assets/images/harmony006.jpg" class="gallery-image">
+            <span class="image-caption">Another photo from the prototyping / hardware lab on the top floor.</span>
+          </div>
+          <div class="gallery-image-container">
+            <img loading="lazy" src="../assets/images/harmony007.jpg" class="gallery-image">
+            <span class="image-caption">Electronic Components.</span>
+          </div>  
+          <div class="gallery-image-container">
+            <img loading="lazy" src="../assets/images/harmony008.jpg" class="gallery-image">
+            <span class="image-caption">More Components.</span>
+          </div>                                                            
         </div>
       </div>
     </div>
@@ -134,5 +222,5 @@ Large back-lit LCD screen 128 x 128 dots.
       </a>
     </div>
 
-	</body>
-</html>
+  </body>
+  </html>

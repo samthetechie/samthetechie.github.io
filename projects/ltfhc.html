@@ -1,304 +1,392 @@
 
+<!--                                                                              
+                     _   _          _            _     _                           
+                    | | | |        | |          | |   (_)                          
+ ___  __ _ _ __ ___ | |_| |__   ___| |_ ___  ___| |__  _  ___   
+/ __|/ _` | '_ ` _ \| __| '_ \ / _ \ __/ _ \/ __| '_ \| |/ _ \ 
+\__ \ (_| | | | | | | |_| | | |  __/ ||  __/ (__| | | | |  __/
+|___/\__,_|_| |_| |_|\__|_| |_|\___|\__\___|\___|_| |_|_|\___|
+HoomanBean(w/ Voice), Engineer, Entrepreneur, H4ck3r, Gardener
+-->
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-     <link rel="icon" href="assets/icons/favicon.ico" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>" />
-     <title>Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</title>
-    <meta name="description" content="A portfolio of the projects I have worked on and their impact, the services I provide, the skills that I have and some of my writings.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="assets/icons/favicon.ico" class="gallery-image">
+  <span class="image-caption">LTFHC Build Photos</span>
+</div>" />
+<title>Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</title>
+<meta name="description" content="A portfolio of the projects I have worked on and their impact, the services I provide, the skills that I have and some of my writings.">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/typography.css">
-    <link rel="stylesheet" href="../css/utilities.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/typography.css">
+<link rel="stylesheet" href="../css/utilities.css">
 
-		<script defer src="../js/script.js"></script>
-	</head>
-	<body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="../index.html">
+<script defer src="../js/script.js"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <a class="nav-title-link" href="../index.html">
 
-        <span class="nav-title">Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</span>
+      <span class="nav-title">Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</span>
+      <span class="nav-title" title="menu" onclick="openNav()" class="button">≡</span>
+    </a>
+  </div>
 
-        <a class="button" href="mailto:samuelcarlisle@gmail.com">
-          <span class="button-text">Contact Me</span>
-        </a>
-      </a>
+  <!-- The overlay -->
+  <div id="myNav" class="overlay">
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <p>Home:</p>
+      <hr>
+      <a href="./index.html">> Home</a>
+      <a href="./home/bio.html">> Bio</a>
+      <a href="./home/contact.html">> Contact</a>
+      <p>Portfolio > Projects:</p>
+      <hr>
+      <a href="./projects/reprap.html">> Reprap Opensource 3D Printer</a>
+      <a href="./projects/animachine.html">> Animachine @Youin3D, Berlin</a>
+      <a href="./projects/buildingbanter.html">> Industrial Energy Monitoring</a>
+      <a href="./projects/classic4.html">> Medical Device Firmware</a>
+      <a href="./projects/nanode.html">> Nanode, DIY IoT Device</a>
+      <a href="./projects/ltfhc.html">> Electronic Medical Records</a>
+      <a href="./projects/thinkfarm.html">> Sustainability Research</a>
+      <a href="./projects/ose.html">> Open Source Ecology</a>
+      <p>Portfolio > Actions:</p>
+      <hr>
+      <a href="./actions/ucloccupation.html">> UCL Occupation</a>
+      <a href="./actions/occupylondon.html">> Occupy London Tech Team</a>
+      <a href="./actions/cryptoparty.html">> Cryptoparty London</a>
+      <a href="./actions/hurricanesandy.html">> Hurricane Hackers</a>
+      <a href="./actions/fliehkraft.html">> Fliehkraft, Berlin</a>
+      <a href="./actions/ecovillage.html">> Eco Village</a>
+      <p>Portfolio > Academia:</p>
+      <hr>
+      <a href="./academia/ch.html">> Overview</a>
+      <a href="./academia/durham.html">> About</a>
+      <a href="./academia/mit.html">> Curriculum Vitae</a>
+      <p>Portfolio > Creative:</p>
+      <hr>
+      <a href="./art/writing.html">> Writing</a>
+      <a href="./art/artwork.html">> Artwork</a>
+      <a href="./art/concepts.html">> Concepts & Design</a>
+      <p>Portfolio > Talks:</p>
+      <hr>
+      <a href="./talks/ccc.html">> Assembly + Lightning Talk @CCC</a>
+      <a href="./talks/pp_intl.html">> RW Society @PP Intl</a>
+      <a href="./talks/fabrica.html">> Trust but Verify @Fabrica</a>
+      <a href="./talks/frontline.html">> Revolutionary Apps @Frontline Club</a>
+      <a href="./talks/talklist.html">> List: Talks</a>
+      <p>Lists of things I like:</p>
+      <hr>
+      <a href="./art/poetrylist.html">> Poetry</a>
+      <a href="./art/filmlist.html">> Film</a>
+      <a href="./art/booklist.html">> Books</a>
+      <a href="./art/musiclist.html">> Music</a>
+      <p>Service > Consulting</p>
+      <hr>
+      <a href="./service/engineering.html">> IT / Engineering</a>
+      <a href="./service/security.html">> Security</a>
+      <a href="./service/sustainability.html">> Sustainability</a>
+      <p>Service > Programming:</p>
+      <hr>
+      <a href="./service/programming.html">> Examples of My Work</a>
+      <p>Service > Webdev:</p>
+      <hr>
+      <a href="./service/web.html">> Webdesign and Development</a>
+      <a href="./service/web_examples.html">> Examples of My Work</a>
+      <a href="./service/web_feedback.html">> Client Feedback</a>
+      <p>Service > PC Repair</p>
+      <hr>
+      <a href="./service/onsite_repair.html">> Onsite Support</a>
+      <a href="./service/remote_repair.html">> Remote Support</a>
+      <a href="./service/repair_feedback.html">> Reviews</a>
+      <p>Service > Clients:</p>
+      <hr>
+      <a href="./service/current_clients.html">> Current Clients</a>
+      <a href="./service/previous_clients.html">> Previous Clients</a>
+      <p>Service > Personal:</p>
+      <hr>
+      <a href="./service/mentoring.html">> Mentoring</a>
+      <a href="./service/business_development.html">> Business Development</a>
     </div>
+  </div>
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span onclick="openNav()">open</span>
+  <!-- MAIN PAGE CONTENT -->
+  <div id="main-content">
 
-    <!-- MAIN PAGE CONTENT -->
-    <div id="main-content">
-
-      <!-- PROJECT HEADER -->
-      <div id="project-header">
-        <div class="main-title">LTFHC Radio Communications Project</div>
-        <div class="body-text">Solar Powered HF Radio Synchronised Electronic Medical Records System built in Berlin and deployed in extremely remote locations around Lake Tanganyika.</div>
-        <image class="project-header-image" src="../assets/images/20140724_153555.jpg">
+    <!-- PROJECT HEADER -->
+    <div id="project-header">
+      <div class="main-title">LTFHC Radio Communications Project</div>
+      <div class="body-text">Solar Powered HF Radio Synchronised Electronic Medical Records System built in Berlin and deployed in extremely remote locations around Lake Tanganyika.</div>
+      <image class="project-header-image" src="../assets/images/20140724_153555.jpg">
       </div>
       <div id="project-details">
         <div class="subheader-text">Project Details / Background</div>
         <div class="project-details-content">
           <div class="body-text">  (Text from <a target="_blank" href="https://iilab.org/projects/electronic-medical-record.html">iilab Project Writeup</a>):The Lake Tanganyika Floating Health Clinic has initiated a groundbreaking communication system on the shore of Lake Tanganyika. It began with the installation of high frequency radios in DRC health centers that operate without any type of phone service. This allowed these centers to communicate with their regional hospitals to seek advice on patient care and report of infectious disease outbreaks. The LTFHC then expanded this network in rural Tanzania, this time with the addition of a specially tailored electronic medical record (EMR) designed in partnership with iilab. By 2015, we will have expanded this network to another eight locations in DRC. This expansion will not only help bridge the communications gap between health centers, but will also establish hub sites that collect and relay electronic data, creating the first medical database in the region. Together, these tools will enable better treatments and preventative practices, leading to greatly improved outcomes for patients, as well as education and training opportunities for health care workers. For the first time, accurate epidemiologic data will be collected via the EMR and transmitted over the radio.</div>
           <div class="body-text"> 
-          (Text from <a target="_blank" href="https://floatingclinic.org/wp-content/uploads/2014/04/LTFHC-EMR-Pilot-Report-Tanzania-including-attachments.pdf">LTFHC EMR Pilot Report</a>): Communications options in the Lake Tanganyika basin are extremely limited due to the remoteness of the area, lack of GSM networks, terrain profile, and long distances between locations. Health centers in the Lake Tanganyika Basin are currently unable to call for emergency medical assistance, seek basic health-related guidance or submit reports required by their Ministries of Health (MOH). They are also unable to collect and transmit vital public health and epidemiologic data that could aid in containing infectious disease outbreaks, prioritizing particular diseases or health problems, and obtaining much needed resources. Following the successful 2012 High Frequency (HF) radio pilot in Moba Territory, Democratic Republic of Congo (DRC), the Lake Tanganyika Floating Health Clinic (LTFHC) engaged in the development of an HF radio-based data network and Electronic Medical Record (EMR) system to address the void in communications infrastructure in the Lake Tanganyika Basin. The development of this system was informed by in-depth, technical surveillance of potential sites conducted in Tanzania in December 2012 and in the DRC in March 2013, with specific attention paid to successfully incorporating existing infrastructure and anticipating any technical challenges, as well as determining general suitability of the site and the aptitude and enthusiasm of the personnel for incorporating new technology. Factors such as community ownership and involvement in health care facilities were also taken into account. The LTFHC installed communications units, comprised of a Codan HF radio, High speed HF data modem, folded dipole antenna, a 60-watt solar panel and 12-volt battery, Mini server unit, EMR software and HP laptop computers at the following locations:
-          <ul>
-          <li><em>Izinga Clinic (population served: 1,990)</em> This was the most remote, inaccessible and challenging of the installation sites. It required a three hour journey by boat as there are no existing roads. This was mitigated however, by community investment and enthusiasm. Villagers offered assistance in every aspect of the installation, including digging to plant an antenna mast and routing cabling. The village chief insisted on familiarizing himself with the new system, and school children swarmed the facility to interact with our team. Overall, the overwhelming commitment of the community resulted in the installation being completed in very short order.</li>
-          <li><em>Namansi Clinic (population served: 5,172)</em> The team accessed Namansi via road, given strong winds and rough water conditions on Lake Tanganyika. Again, a very enthusiastic and helpful community was encountered at this location, thus expediting the installation. Time was spent rewiring an existing solar lighting system
-          which had ceased to function, although new batteries are required and will be addressed at a later date.</li>
-          <li><em>Kirando Health Center (population served: 60,000)</em> Kirando is a larger referral health center, at which the LTFHC has previously invested heavily in infrastructure and capacity building. An existing solar
-          power system was upgraded and rewired during the course of the installation, providing power and lighting throughout the facility. This was also the most extensive installation, involving a much wider wifi network,
-          eight notebook computers and internet uplink to provide a secondary network hub for the flow of data to the cloud based server. Consequently, this took two full days to complete.</li>
-          <li><em>Kazovu Clinic (population served: 10,990)</em> Due to inclement weather on the lake and a lack of any road access, this installation had to be briefly deferred. However, the team managed to access the site on the following day, and a very supportive and engaged community helped to expedite the team’s task. Kazovu was fortunate to have both an existing radio and solar lighting system, both of which were found to be in working condition. Thus, the upgrade of both was relatively straight forward and completed in short order, allowing the team to finish prior to the onset of an impending storm.</li>
-          <li><em>Nkasi District Medical Office, Namanyere</em> Some sixty kilometers inland of Lake Tanganyika, Nkasi Medical Center is the district’s highest level facility and home to the local MOH hierarchy, to whom monthly reports are submitted by all health care facilities in Nkasi District. The medical center has an existing solar power and radio system, which was upgraded to receive reports and epidemiological data as well as provide a local wifi network to facilitate uploading of data to the cloud based server.</li></ul></div>
-          <div class="subheader-text">Project Videos</div>
-          <div class="body-text">
+            (Text from <a target="_blank" href="https://floatingclinic.org/wp-content/uploads/2014/04/LTFHC-EMR-Pilot-Report-Tanzania-including-attachments.pdf">LTFHC EMR Pilot Report</a>): Communications options in the Lake Tanganyika basin are extremely limited due to the remoteness of the area, lack of GSM networks, terrain profile, and long distances between locations. Health centers in the Lake Tanganyika Basin are currently unable to call for emergency medical assistance, seek basic health-related guidance or submit reports required by their Ministries of Health (MOH). They are also unable to collect and transmit vital public health and epidemiologic data that could aid in containing infectious disease outbreaks, prioritizing particular diseases or health problems, and obtaining much needed resources. Following the successful 2012 High Frequency (HF) radio pilot in Moba Territory, Democratic Republic of Congo (DRC), the Lake Tanganyika Floating Health Clinic (LTFHC) engaged in the development of an HF radio-based data network and Electronic Medical Record (EMR) system to address the void in communications infrastructure in the Lake Tanganyika Basin. The development of this system was informed by in-depth, technical surveillance of potential sites conducted in Tanzania in December 2012 and in the DRC in March 2013, with specific attention paid to successfully incorporating existing infrastructure and anticipating any technical challenges, as well as determining general suitability of the site and the aptitude and enthusiasm of the personnel for incorporating new technology. Factors such as community ownership and involvement in health care facilities were also taken into account. The LTFHC installed communications units, comprised of a Codan HF radio, High speed HF data modem, folded dipole antenna, a 60-watt solar panel and 12-volt battery, Mini server unit, EMR software and HP laptop computers at the following locations:
+            <ul>
+              <li><em>Izinga Clinic (population served: 1,990)</em> This was the most remote, inaccessible and challenging of the installation sites. It required a three hour journey by boat as there are no existing roads. This was mitigated however, by community investment and enthusiasm. Villagers offered assistance in every aspect of the installation, including digging to plant an antenna mast and routing cabling. The village chief insisted on familiarizing himself with the new system, and school children swarmed the facility to interact with our team. Overall, the overwhelming commitment of the community resulted in the installation being completed in very short order.</li>
+              <li><em>Namansi Clinic (population served: 5,172)</em> The team accessed Namansi via road, given strong winds and rough water conditions on Lake Tanganyika. Again, a very enthusiastic and helpful community was encountered at this location, thus expediting the installation. Time was spent rewiring an existing solar lighting system
+              which had ceased to function, although new batteries are required and will be addressed at a later date.</li>
+              <li><em>Kirando Health Center (population served: 60,000)</em> Kirando is a larger referral health center, at which the LTFHC has previously invested heavily in infrastructure and capacity building. An existing solar
+                power system was upgraded and rewired during the course of the installation, providing power and lighting throughout the facility. This was also the most extensive installation, involving a much wider wifi network,
+              eight notebook computers and internet uplink to provide a secondary network hub for the flow of data to the cloud based server. Consequently, this took two full days to complete.</li>
+              <li><em>Kazovu Clinic (population served: 10,990)</em> Due to inclement weather on the lake and a lack of any road access, this installation had to be briefly deferred. However, the team managed to access the site on the following day, and a very supportive and engaged community helped to expedite the team’s task. Kazovu was fortunate to have both an existing radio and solar lighting system, both of which were found to be in working condition. Thus, the upgrade of both was relatively straight forward and completed in short order, allowing the team to finish prior to the onset of an impending storm.</li>
+              <li><em>Nkasi District Medical Office, Namanyere</em> Some sixty kilometers inland of Lake Tanganyika, Nkasi Medical Center is the district’s highest level facility and home to the local MOH hierarchy, to whom monthly reports are submitted by all health care facilities in Nkasi District. The medical center has an existing solar power and radio system, which was upgraded to receive reports and epidemiological data as well as provide a local wifi network to facilitate uploading of data to the cloud based server.</li></ul></div>
+              <div class="subheader-text">Project Videos</div>
+              <div class="body-text">
 
-          <div style="position:relative;padding-top:56.25%;"><iframe src="https://player.vimeo.com/video/109506913?h=03bb6cd05a" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                <div style="position:relative;padding-top:56.25%;"><iframe src="https://player.vimeo.com/video/109506913?h=03bb6cd05a" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                </div>
+
+                <div style="position:relative;padding-top:56.25%;"><iframe src="https://www.youtube.com/embed/-WzYDV4t-vM" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                </div>
+
+                <div style="position:relative;padding-top:56.25%;"><iframe src="https://www.youtube.com/embed/J5p0DhAlQ1I" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                </div>
+
+                <div style="position:relative;padding-top:56.25%;"><iframe src="https://www.youtube.com/embed/fovkv9EFa9c" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                </div>
+
+                <div style="position:relative;padding-top:56.25%;"><iframe src="https://www.youtube.com/embed/GtIPuuE2KgA" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                </div>
+
+                <div style="position:relative;padding-top:56.25%;"><iframe src="https://www.youtube.com/embed/ZSjgqeRcbko" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                </div>
+              </div>
+              <div class="subheader-text">Project Results</div>
+              <div class="body-text">(Text from <a target="_blank" href="https://floatingclinic.org/wp-content/uploads/2014/04/LTFHC-EMR-Pilot-Report-Tanzania-including-attachments.pdf">LTFHC EMR Pilot Report</a>): Despite challenges releasing equipment from customs and inclement weather delays, the hardware performed as expected and installations were successfully concluded. Some minor reprogramming and reconfiguration of systems was required as a result of changes which had occurred onsite between surveillance and installation, however these issues were easily dealt with. This success is a testament to the LTFHC team’s effectiveness in a challenging environment.
+                Key project results include the following:
+                <ul>
+                  <li>Kirando Health Center, Izinga, Namansi and Kazovu Clinics (this comprises all locations originally planned for), serving over 75,000 lakeside residents, are now able, for the first time, to electronically record, then easily review patient visits, test results and diagnoses, allowing for more effective disease management.</li>
+                  <li>Tens of thousands of Tanzanian citizens are now better connected to the Nkasi District Medical Office.</li>
+                  <li>A total of 12 health care workers (out of 12 originally planned) were trained in basic computer skills and EMR use.</li>
+                  <li>The production of user-manuals for laptops and the EMR were produced and distributed by LTFHC to each installation site.</li>
+                  <li>Titular nurses and other health care workers have the knowledge needed to operate the radios and submit monthly MOH reports as required.</li>
+                </ul>
+              </div>
+              <div class="subheader-text">What the client said</div>
+              <div class="body-text"> "If you have 12 million who are living in the Lake Tanganyika Basin who can be treated for all the preventable and public health diseases as well as the direct issues of maternal health, we are talking about saving probably hundreds of thousands of lives over the course of the next ten years. - Dr. Amy Lehman, BBC interview May 2013. "In cooperation with our tech partner iilab, the LTFHC has developed a unique solution to bridge the communications gap in the Lake Tanganyika Basin through the creation of a high frequency (HF) radio network with a basic electronic medical record (EMR) specifically designed for remote and resource-poor settings. This system is the first of its kind in the region and facilitates data collection and sharing, as well as provides a giant leap forward in quality and safety of the health care delivered through reliable stewardship of patient records and health care worker decision support. <a target="_blank" href="https://floatingclinic.org/water-based-aid/about-ltfhc/communication-and-data-collection/">More about the system</a>. In October, the LTFHC team completed a successful EMR pilot in the DRC, including five EMR installations and three additional HF radio installations. As a result, these remote lakeside health centers are now far better connected by voice and data communication to the Ministry of Health and Kalemie General Hospital. Thanks to iilab and Team Rubicon for their participation in this outreach!"</div>
+            </div>
           </div>
 
-          <div style="position:relative;padding-top:56.25%;"><iframe src="https://www.youtube.com/embed/-WzYDV4t-vM" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+          <!-- IMAGE GALLERY -->
+          <div id="project-gallery">
+            <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+            <div class="subheader-text">My Project Build Photos</div>
+            <div class="project-gallery-content">
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/IMG_20140618_144038802.jpg" class="gallery-image">
+                <span class="image-caption">My original system diagram showing the connections between all the modules.</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140619_160303.jpg" class="gallery-image">
+                <span class="image-caption">Mini computer with the case off.</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140724_153546.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140726_174924.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140619_160345.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140724_153549.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140726_175001.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140711_202527.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140724_153555.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140726_175018.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140711_202531.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140724_153615.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140726_175032.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140711_202539.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140725_000149.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140728_023530.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140711_202545.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140725_000416.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140728_023536.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140718_183825.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140725_000457.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140728_023539.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140718_183844.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140725_200802.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140728_023734.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140718_183848.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140726_025814.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140728_023747.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140718_183902.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140726_025828.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140728_135101.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140718_183926.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140726_025833.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140728_135104.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140722_005204.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140726_025849.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140728_135113.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140722_005310.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140726_025858.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140728_135119.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140722_005317.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140726_025903.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140728_135127.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140724_153542.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140726_025905.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140728_135132.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140724_153544.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/20140726_025907.jpg" class="gallery-image">
+                <span class="image-caption">LTFHC Build Photos</span>
+              </div>
+            </div>
           </div>
-
-          <div style="position:relative;padding-top:56.25%;"><iframe src="https://www.youtube.com/embed/J5p0DhAlQ1I" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-          </div>
-
-          <div style="position:relative;padding-top:56.25%;"><iframe src="https://www.youtube.com/embed/fovkv9EFa9c" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-          </div>
-
-          <div style="position:relative;padding-top:56.25%;"><iframe src="https://www.youtube.com/embed/GtIPuuE2KgA" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-          </div>
-
-          <div style="position:relative;padding-top:56.25%;"><iframe src="https://www.youtube.com/embed/ZSjgqeRcbko" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-          </div>
-          </div>
-          <div class="subheader-text">Project Results</div>
-          <div class="body-text">(Text from <a target="_blank" href="https://floatingclinic.org/wp-content/uploads/2014/04/LTFHC-EMR-Pilot-Report-Tanzania-including-attachments.pdf">LTFHC EMR Pilot Report</a>): Despite challenges releasing equipment from customs and inclement weather delays, the hardware performed as expected and installations were successfully concluded. Some minor reprogramming and reconfiguration of systems was required as a result of changes which had occurred onsite between surveillance and installation, however these issues were easily dealt with. This success is a testament to the LTFHC team’s effectiveness in a challenging environment.
-          Key project results include the following:
-          <ul>
-          <li>Kirando Health Center, Izinga, Namansi and Kazovu Clinics (this comprises all locations originally planned for), serving over 75,000 lakeside residents, are now able, for the first time, to electronically record, then easily review patient visits, test results and diagnoses, allowing for more effective disease management.</li>
-          <li>Tens of thousands of Tanzanian citizens are now better connected to the Nkasi District Medical Office.</li>
-          <li>A total of 12 health care workers (out of 12 originally planned) were trained in basic computer skills and EMR use.</li>
-          <li>The production of user-manuals for laptops and the EMR were produced and distributed by LTFHC to each installation site.</li>
-          <li>Titular nurses and other health care workers have the knowledge needed to operate the radios and submit monthly MOH reports as required.</li>
-          </ul>
         </div>
-        <div class="subheader-text">What the client said</div>
-        <div class="body-text"> "If you have 12 million who are living in the Lake Tanganyika Basin who can be treated for all the preventable and public health diseases as well as the direct issues of maternal health, we are talking about saving probably hundreds of thousands of lives over the course of the next ten years. - Dr. Amy Lehman, BBC interview May 2013. "In cooperation with our tech partner iilab, the LTFHC has developed a unique solution to bridge the communications gap in the Lake Tanganyika Basin through the creation of a high frequency (HF) radio network with a basic electronic medical record (EMR) specifically designed for remote and resource-poor settings. This system is the first of its kind in the region and facilitates data collection and sharing, as well as provides a giant leap forward in quality and safety of the health care delivered through reliable stewardship of patient records and health care worker decision support. <a target="_blank" href="https://floatingclinic.org/water-based-aid/about-ltfhc/communication-and-data-collection/">More about the system</a>. In October, the LTFHC team completed a successful EMR pilot in the DRC, including five EMR installations and three additional HF radio installations. As a result, these remote lakeside health centers are now far better connected by voice and data communication to the Ministry of Health and Kalemie General Hospital. Thanks to iilab and Team Rubicon for their participation in this outreach!"</div>
+
+        <!-- FOOTER -->
+        <div id="footer">
+
+          <a class="icon-link" href="mailto:samuelcarlisle@gmail.com">
+            <image src="../assets/icons/mail.svg" class="footer-icon"/>
+          </a>
         </div>
-      </div>
 
-      <!-- IMAGE GALLERY -->
-      <div id="project-gallery">
-        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
-        <div class="subheader-text">My Project Build Photos</div>
-        <div class="project-gallery-content">
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/IMG_20140618_144038802.jpg" class="gallery-image">
-              <span class="image-caption">My original system diagram showing the connections between all the modules.</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140619_160303.jpg" class="gallery-image">
-              <span class="image-caption">Mini computer with the case off.</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140724_153546.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140726_174924.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140619_160345.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140724_153549.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140726_175001.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140711_202527.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140724_153555.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140726_175018.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140711_202531.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140724_153615.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140726_175032.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140711_202539.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140725_000149.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140728_023530.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140711_202545.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140725_000416.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140728_023536.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140718_183825.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140725_000457.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140728_023539.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140718_183844.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140725_200802.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140728_023734.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140718_183848.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140726_025814.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140728_023747.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140718_183902.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140726_025828.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140728_135101.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140718_183926.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140726_025833.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140728_135104.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140722_005204.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140726_025849.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140728_135113.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140722_005310.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140726_025858.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140728_135119.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140722_005317.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140726_025903.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140728_135127.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140724_153542.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140726_025905.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140728_135132.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140724_153544.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/20140726_025907.jpg" class="gallery-image">
-              <span class="image-caption">LTFHC Build Photos</span>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- FOOTER -->
-    <div id="footer">
-
-      <a class="icon-link" href="mailto:samuelcarlisle@gmail.com">
-        <image src="../assets/icons/mail.svg" class="footer-icon"/>
-      </a>
-    </div>
-
-	</body>
-</html>
+      </body>
+      </html>

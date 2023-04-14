@@ -1,64 +1,139 @@
-
+<!--                                                                              
+                     _   _          _            _     _                           
+                    | | | |        | |          | |   (_)                          
+ ___  __ _ _ __ ___ | |_| |__   ___| |_ ___  ___| |__  _  ___   
+/ __|/ _` | '_ ` _ \| __| '_ \ / _ \ __/ _ \/ __| '_ \| |/ _ \ 
+\__ \ (_| | | | | | | |_| | | |  __/ ||  __/ (__| | | | |  __/
+|___/\__,_|_| |_| |_|\__|_| |_|\___|\__\___|\___|_| |_|_|\___|
+HoomanBean(w/ Voice), Engineer, Entrepreneur, H4ck3r, Gardener
+-->
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-
-     <link rel="icon" href="assets/icons/favicon.ico" />
-     <title>Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</title>
-    <meta name="description" content="A portfolio of the projects I have worked on and their impact, the services I provide, the skills that I have and a selection of my readings and writings.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-		<link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/typography.css">
-    <link rel="stylesheet" href="../css/utilities.css">
-
-		<script defer src="../js/script.js"></script>
-	</head>
-	<body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="../index.html">
-
-        <span class="nav-title">Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</span>
-
-        <a class="button" href="mailto:samuelcarlisle@gmail.com">
-          <span class="button-text">Contact Me</span>
-        </a>
-      </a>
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="./assets/icons/favicon.ico" />
+  <title>Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</title>
+  <meta name="description" content="A portfolio of the projects I have worked on and their impact, the services I provide, the skills that I have and a selection of my readings and writings.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/utilities.css">
+  <script defer src="../js/script.js"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <a class="nav-title-link" href="../index.html">
+      <span class="nav-title">Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</span>
+      <span class="nav-title" title="menu" onclick="openNav()" class="button">≡</span>
+    </a>
+  </div>
+  <!-- The overlay -->
+  <div id="myNav" class="overlay">
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <p>Home:</p>
+      <hr>
+      <a href="./index.html">> Home</a>
+      <a href="./home/bio.html">> Bio</a>
+      <a href="./home/contact.html">> Contact</a>
+      <p>Portfolio > Projects:</p>
+      <hr>
+      <a href="./projects/reprap.html">> Reprap Opensource 3D Printer</a>
+      <a href="./projects/animachine.html">> Animachine @Youin3D, Berlin</a>
+      <a href="./projects/buildingbanter.html">> Industrial Energy Monitoring</a>
+      <a href="./projects/classic4.html">> Medical Device Firmware</a>
+      <a href="./projects/nanode.html">> Nanode, DIY IoT Device</a>
+      <a href="./projects/ltfhc.html">> Electronic Medical Records</a>
+      <a href="./projects/thinkfarm.html">> Sustainability Research</a>
+      <a href="./projects/ose.html">> Open Source Ecology</a>
+      <p>Portfolio > Actions:</p>
+      <hr>
+      <a href="./actions/ucloccupation.html">> UCL Occupation</a>
+      <a href="./actions/occupylondon.html">> Occupy London Tech Team</a>
+      <a href="./actions/cryptoparty.html">> Cryptoparty London</a>
+      <a href="./actions/hurricanesandy.html">> Hurricane Hackers</a>
+      <a href="./actions/fliehkraft.html">> Fliehkraft, Berlin</a>
+      <a href="./actions/ecovillage.html">> Eco Village</a>
+      <p>Portfolio > Academia:</p>
+      <hr>
+      <a href="./academia/ch.html">> Overview</a>
+      <a href="./academia/durham.html">> About</a>
+      <a href="./academia/mit.html">> Curriculum Vitae</a>
+      <p>Portfolio > Creative:</p>
+      <hr>
+      <a href="./art/writing.html">> Writing</a>
+      <a href="./art/artwork.html">> Artwork</a>
+      <a href="./art/concepts.html">> Concepts & Design</a>
+      <p>Portfolio > Talks:</p>
+      <hr>
+      <a href="./talks/ccc.html">> Assembly + Lightning Talk @CCC</a>
+      <a href="./talks/pp_intl.html">> RW Society @PP Intl</a>
+      <a href="./talks/fabrica.html">> Trust but Verify @Fabrica</a>
+      <a href="./talks/frontline.html">> Revolutionary Apps @Frontline Club</a>
+      <a href="./talks/talklist.html">> List: Talks</a>
+      <p>Lists of things I like:</p>
+      <hr>
+      <a href="./art/poetrylist.html">> Poetry</a>
+      <a href="./art/filmlist.html">> Film</a>
+      <a href="./art/booklist.html">> Books</a>
+      <a href="./art/musiclist.html">> Music</a>
+      <p>Service > Consulting</p>
+      <hr>
+      <a href="./service/engineering.html">> IT / Engineering</a>
+      <a href="./service/security.html">> Security</a>
+      <a href="./service/sustainability.html">> Sustainability</a>
+      <p>Service > Programming:</p>
+      <hr>
+      <a href="./service/programming.html">> Examples of My Work</a>
+      <p>Service > Webdev:</p>
+      <hr>
+      <a href="./service/web.html">> Webdesign and Development</a>
+      <a href="./service/web_examples.html">> Examples of My Work</a>
+      <a href="./service/web_feedback.html">> Client Feedback</a>
+      <p>Service > PC Repair</p>
+      <hr>
+      <a href="./service/onsite_repair.html">> Onsite Support</a>
+      <a href="./service/remote_repair.html">> Remote Support</a>
+      <a href="./service/repair_feedback.html">> Reviews</a>
+      <p>Service > Clients:</p>
+      <hr>
+      <a href="./service/current_clients.html">> Current Clients</a>
+      <a href="./service/previous_clients.html">> Previous Clients</a>
+      <p>Service > Personal:</p>
+      <hr>
+      <a href="./service/mentoring.html">> Mentoring</a>
+      <a href="./service/business_development.html">> Business Development</a>
     </div>
-
-    <!-- MAIN PAGE CONTENT -->
-    <div id="main-content">
-
-      <!-- PROJECT HEADER -->
-      <div id="project-header">
-
-        <div class="main-title">Cryptoparty</div>
-        <div class="body-text">A grassroots, global endeavour to introduce the basics of practical cryptography such as the Tor, PGP, OTR, disk encryption and VPNs to the general public. The project primarily consists of a series of free public workshops.</div>
-        <image class="project-header-image" src="../assets/images/cryptoparty.jpeg">
+  </div>
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span onclick="openNav()">open</span>
+  <!-- MAIN PAGE CONTENT -->
+  <div id="main-content">
+    <!-- PROJECT HEADER -->
+    <div id="project-header">
+      <div class="main-title">Cryptoparty</div>
+      <div class="body-text">A grassroots, global endeavour to introduce the basics of practical cryptography such as the Tor, PGP, OTR, disk encryption and VPNs to the general public. The project primarily consists of a series of free public workshops.</div>
+      <image class="project-header-image" src="../assets/images/cryptoparty.jpeg">
       </div>
-
-
       <div id="project-details">
         <div class="subheader-text">Project Details / Background</div>
         <div class="project-details-content">
           <div class="body-text">Seeded Cryptoparty London in solidarity with the global movement. Key contributor in the subsequent, grassroots, global endeavour to introduce the basics of practical cryptography such as the Tor, PGP, OTR, disk encryption and VPNs to the general public. The project primarily consists of a series of free public workshops.</div>
-        <div class="subheader-text">History</div>
+          <div class="subheader-text">History</div>
           <div class="body-text">A successor to the Cypherpunks of the 1990s, CryptoParty was conceived in late August 2012 by the Australian journalist Asher Wolf in a Twitter post following the passing of the Cybercrime Legislation Amendment Bill 2011 and the proposal of a two-year data retention law in that country, the Cybercrime Legislation Amendment Bill 2011. The DIY, self-organizing movement immediately went viral, with a dozen autonomous CryptoParties being organized within hours in cities throughout Australia, the US, the UK, and Germany. Many more parties were soon organized or held in Chile, The Netherlands, Hawaii, Asia, etc. Tor usage in Australia itself spiked, and CryptoParty London with 130 attendees—some of whom were veterans of the Occupy London movement—had to be moved from London Hackspace to the Google campus in east London's Tech City. As of mid-October 2012 some 30 CryptoParties have been held globally, some on a continuing basis, and CryptoParties were held on the same day in Reykjavik, Brussels, and Manila. The first draft of the 442-page CryptoParty Handbook (the hard copy of which is available at cost) was pulled together in three days using the book sprint approach, and was released 2012-10-04 under a CC-BY-SA license.</div>
-        <div class="subheader-text">Edward Snowden involvement</div>
-        <div class="body-text">In May 2014, Wired reported that Edward Snowden, while employed by Dell as an NSA contractor, organized a local CryptoParty at a small hackerspace in Honolulu, Hawaii on December 11, six months before becoming well known for leaking tens of thousands of secret U.S. government documents. During the CryptoParty, Snowden taught 20 Hawaii residents how to encrypt their hard drives and use the Internet anonymously. The event was filmed by Snowden's then-girlfriend, but the video has never been released online. In a follow-up post to the CryptoParty wiki, Snowden pronounced the event a "huge success."</div>
-        <div class="subheader-text">Media response</div>
-        <div class="body-text">CryptoParty has received early messages of support from the Electronic Frontier Foundation and (purportedly) AnonyOps, as well as the NSA whistleblower Thomas Drake, WikiLeaks central editor Heather Marsh, and Wired reporter Quinn Norton.Eric Hughes, the author of A Cypherpunk's Manifesto nearly two decades before, delivered the keynote address, Putting the Personal Back in Personal Computers, at the Amsterdam CryptoParty on 2012-09-27. Marcin de Kaminski, founding member of Piratbyrån which in turn founded The Pirate Bay, regards CryptoParty as the most important civic project in cryptography today, and Cory Doctorow has characterized a CryptoParty as being "like a Tupperware party for learning crypto." Der Spiegel in December 2014 mentioned "crypto parties" in the wake of the Edward Snowden leaks in an article about the NSA.
+          <div class="subheader-text">Edward Snowden involvement</div>
+          <div class="body-text">In May 2014, Wired reported that Edward Snowden, while employed by Dell as an NSA contractor, organized a local CryptoParty at a small hackerspace in Honolulu, Hawaii on December 11, six months before becoming well known for leaking tens of thousands of secret U.S. government documents. During the CryptoParty, Snowden taught 20 Hawaii residents how to encrypt their hard drives and use the Internet anonymously. The event was filmed by Snowden's then-girlfriend, but the video has never been released online. In a follow-up post to the CryptoParty wiki, Snowden pronounced the event a "huge success."</div>
+          <div class="subheader-text">Media response</div>
+          <div class="body-text">CryptoParty has received early messages of support from the Electronic Frontier Foundation and (purportedly) AnonyOps, as well as the NSA whistleblower Thomas Drake, WikiLeaks central editor Heather Marsh, and Wired reporter Quinn Norton.Eric Hughes, the author of A Cypherpunk's Manifesto nearly two decades before, delivered the keynote address, Putting the Personal Back in Personal Computers, at the Amsterdam CryptoParty on 2012-09-27. Marcin de Kaminski, founding member of Piratbyrån which in turn founded The Pirate Bay, regards CryptoParty as the most important civic project in cryptography today, and Cory Doctorow has characterized a CryptoParty as being "like a Tupperware party for learning crypto." Der Spiegel in December 2014 mentioned "crypto parties" in the wake of the Edward Snowden leaks in an article about the NSA. </div>
         </div>
-      </div>
-
-      <!-- IMAGE GALLERY -->
-      <div id="project-gallery">
-        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
-        <div class="subheader-text">Image Gallery</div>
-        <div class="project-gallery-content">
-
+        <!-- IMAGE GALLERY -->
+        <div id="project-gallery">
+          <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+          <div class="subheader-text">Image Gallery</div>
+          <div class="project-gallery-content">
             <div class="gallery-image-container half-width">
               <img loading="lazy" src="../assets/images/code.jpeg" class="gallery-image">
               <span class="image-caption">Give your image a caption. People love context.</span>
@@ -71,17 +146,14 @@
               <img loading="lazy" src="../assets/images/camera.jpeg" class="gallery-image">
               <span class="image-caption">Give your image a caption. People love context.</span>
             </div>
+          </div>
         </div>
       </div>
-    </div>
-
-    <!-- FOOTER -->
-    <div id="footer">
-
-      <a class="icon-link" href="mailto:samuelcarlisle@gmail.com">
-        <image src="../assets/icons/mail.svg" class="footer-icon"/>
-      </a>
-    </div>
-
-	</body>
-</html>
+      <!-- FOOTER -->
+      <div id="footer">
+        <a class="icon-link" href="mailto:samuelcarlisle@gmail.com">
+          <image src="../assets/icons/mail.svg" class="footer-icon" />
+        </a>
+      </div>
+    </body>
+    </html>

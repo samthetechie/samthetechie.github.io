@@ -1,111 +1,170 @@
-
+<!--                                                                              
+                     _   _          _            _     _                           
+                    | | | |        | |          | |   (_)                          
+ ___  __ _ _ __ ___ | |_| |__   ___| |_ ___  ___| |__  _  ___   
+/ __|/ _` | '_ ` _ \| __| '_ \ / _ \ __/ _ \/ __| '_ \| |/ _ \ 
+\__ \ (_| | | | | | | |_| | | |  __/ ||  __/ (__| | | | |  __/
+|___/\__,_|_| |_| |_|\__|_| |_|\___|\__\___|\___|_| |_|_|\___|
+HoomanBean(w/ Voice), Engineer, Entrepreneur, H4ck3r, Gardener
+-->
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-
-     <link rel="icon" href=../assets/icons/favicon.ico" />
-     <title>Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</title>
-    <meta name="description" content="A portfolio of the projects I have worked on and their impact, the services I provide, the skills that I have and some of my writings.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-		<link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/typography.css">
-    <link rel="stylesheet" href="../css/utilities.css">
-
-		<script defer src="../js/script.js"></script>
-	</head>
-	<body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="../index.html">
-
-        <span class="nav-title">Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</span>
-
-        <a class="button" href="mailto:samuelcarlisle@gmail.com">
-          <span class="button-text">Contact Me</span>
-        </a>
-      </a>
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href=../assets/icons/favicon.ico" />
+  <title>Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</title>
+  <meta name="description" content="A portfolio of the projects I have worked on and their impact, the services I provide, the skills that I have and some of my writings.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/utilities.css">
+  <script defer src="../js/script.js"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <a class="nav-title-link" href="../index.html">
+      <span class="nav-title">Samuel Carlisle BEng (hons) Dunelm MIET: Portfolio</span>
+      <span class="nav-title" title="menu" onclick="openNav()" class="button">≡</span>
+    </a>
+  </div>
+  <!-- The overlay -->
+  <div id="myNav" class="overlay">
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <p>Home:</p>
+      <hr>
+      <a href="./index.html">> Home</a>
+      <a href="./home/bio.html">> Bio</a>
+      <a href="./home/contact.html">> Contact</a>
+      <p>Portfolio > Projects:</p>
+      <hr>
+      <a href="./projects/reprap.html">> Reprap Opensource 3D Printer</a>
+      <a href="./projects/animachine.html">> Animachine @Youin3D, Berlin</a>
+      <a href="./projects/buildingbanter.html">> Industrial Energy Monitoring</a>
+      <a href="./projects/classic4.html">> Medical Device Firmware</a>
+      <a href="./projects/nanode.html">> Nanode, DIY IoT Device</a>
+      <a href="./projects/ltfhc.html">> Electronic Medical Records</a>
+      <a href="./projects/thinkfarm.html">> Sustainability Research</a>
+      <a href="./projects/ose.html">> Open Source Ecology</a>
+      <p>Portfolio > Actions:</p>
+      <hr>
+      <a href="./actions/ucloccupation.html">> UCL Occupation</a>
+      <a href="./actions/occupylondon.html">> Occupy London Tech Team</a>
+      <a href="./actions/cryptoparty.html">> Cryptoparty London</a>
+      <a href="./actions/hurricanesandy.html">> Hurricane Hackers</a>
+      <a href="./actions/fliehkraft.html">> Fliehkraft, Berlin</a>
+      <a href="./actions/ecovillage.html">> Eco Village</a>
+      <p>Portfolio > Academia:</p>
+      <hr>
+      <a href="./academia/ch.html">> Overview</a>
+      <a href="./academia/durham.html">> About</a>
+      <a href="./academia/mit.html">> Curriculum Vitae</a>
+      <p>Portfolio > Creative:</p>
+      <hr>
+      <a href="./art/writing.html">> Writing</a>
+      <a href="./art/artwork.html">> Artwork</a>
+      <a href="./art/concepts.html">> Concepts & Design</a>
+      <p>Portfolio > Talks:</p>
+      <hr>
+      <a href="./talks/ccc.html">> Assembly + Lightning Talk @CCC</a>
+      <a href="./talks/pp_intl.html">> RW Society @PP Intl</a>
+      <a href="./talks/fabrica.html">> Trust but Verify @Fabrica</a>
+      <a href="./talks/frontline.html">> Revolutionary Apps @Frontline Club</a>
+      <a href="./talks/talklist.html">> List: Talks</a>
+      <p>Lists of things I like:</p>
+      <hr>
+      <a href="./art/poetrylist.html">> Poetry</a>
+      <a href="./art/filmlist.html">> Film</a>
+      <a href="./art/booklist.html">> Books</a>
+      <a href="./art/musiclist.html">> Music</a>
+      <p>Service > Consulting</p>
+      <hr>
+      <a href="./service/engineering.html">> IT / Engineering</a>
+      <a href="./service/security.html">> Security</a>
+      <a href="./service/sustainability.html">> Sustainability</a>
+      <p>Service > Programming:</p>
+      <hr>
+      <a href="./service/programming.html">> Examples of My Work</a>
+      <p>Service > Webdev:</p>
+      <hr>
+      <a href="./service/web.html">> Webdesign and Development</a>
+      <a href="./service/web_examples.html">> Examples of My Work</a>
+      <a href="./service/web_feedback.html">> Client Feedback</a>
+      <p>Service > PC Repair</p>
+      <hr>
+      <a href="./service/onsite_repair.html">> Onsite Support</a>
+      <a href="./service/remote_repair.html">> Remote Support</a>
+      <a href="./service/repair_feedback.html">> Reviews</a>
+      <p>Service > Clients:</p>
+      <hr>
+      <a href="./service/current_clients.html">> Current Clients</a>
+      <a href="./service/previous_clients.html">> Previous Clients</a>
+      <p>Service > Personal:</p>
+      <hr>
+      <a href="./service/mentoring.html">> Mentoring</a>
+      <a href="./service/business_development.html">> Business Development</a>
     </div>
-
-    <!-- MAIN PAGE CONTENT -->
-    <div id="main-content">
-
-      <!-- PROJECT HEADER -->
-      <div id="project-header">
-
-        <div class="main-title">Ecovillage</div>
-        <div class="body-text">Imagine living on the top of a hill in a garden full of food, herbs and other useful and beautiful species situated in a forest (and you are allowed to sleep there). Welcome to Eco-village life.</div>
-        <image class="project-header-image" src="../assets/images/SAMBiOtechie.png">
+  </div>
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span onclick="openNav()">open</span>
+  <!-- MAIN PAGE CONTENT -->
+  <div id="main-content">
+    <!-- PROJECT HEADER -->
+    <div id="project-header">
+      <div class="main-title">Ecovillage</div>
+      <div class="body-text">Imagine living on the top of a hill in a garden full of food, herbs and other useful and beautiful species situated in a forest (and you are allowed to sleep there). Welcome to Eco-village life.</div>
+      <image class="project-header-image" src="../assets/images/SAMBiOtechie.png">
       </div>
       <div id="project-details">
         <div class="subheader-text">Project Details / Background</div>
         <div class="project-details-content">
-          <div class="body-text"><div class="subheader-text">Eco-Village Life</div>
-<div class="body-text">
-It was an immersive, deep dive, into eco-village life, learning by doing and collaborating with others also on their journey to becoming practical in everyday life in a forest. I learned about minimum interference management and other regenerative practices, autonomous DIY systems for heating homes and larger communal spaces, hot water, drinking water, energy generation and storage, thermal mass, upcycling / adaptation of resources from the city. We recycled absolutely everything. For example we have our own natural water recycling system, a wood and clay sauna, a clay pizza oven, clay rocket stoves, we harvest our own wood from our own managed forests for fuel and for building materials for our projects and our homes- many of which where built from recycled materials combined with natural, local, materials namely wood and clay. Permaculture was the norm and there was a lot of knowledge about the medicinal properties of plants, we even had our own communal apothecary. Very magical.
-<image src="../assets/images/ironage.jpg" style="float: right; height: 300px; width: 400px; margin-left: 20px; margin-bottom: 20px;"> 
-<br>
-<br>
-Having lived in a city for most of my early life I was, at that time, overweight, suffered from allergies and had asthma and constantly over-stimulated but somehow under-nourished, there was something missing. 30 years later, after having recently left the eco village I no longer have any of those imbalances, my biomes had finally healed. My simple advice therefore would be to take time in your life to destimulate and for forest bathing and going slowly and connecting with nature. Also I would highly encourage anyone to learn how to safely forage and to grow their own food. As I slowly realised, over the course of my life, that nature was a bigger computer with its own 'internet of mycelium' interfacing with the roots of the plants, I had a new complex system to learn. Plants are, in fact, the self-replicators that Von Neumann had always dreamed of. The magic of trees and also of smaller plants: absorbing the ions they need from the soil and fixing carbon from the air and synergistically sharing excess carbon through their roots and the mycelial network... *and* you can even eat some of them *and* they have different nutritional profiles and some even have healing properties! Let thy food by thy medicine and thy medicine by thy food, there was no going back, I fell in love and became totally fascinated.
-</div>
-<div class="body-text">
-<image src="../assets/images/SAMBiOtechie.png" style="float: left; height: 300px; width: 284px; margin-right: 20px; margin-bottom: 20px;">
-Dreaming: in winter I love the peace and stillness of the forest and being cosy at home with the wood stove burning, some nettle tea and plenty to read and lots of time to go slowly, regenerate and sleep.<br><br>
-Planning: in spring I love to be active in the garden getting everthing ready for the warmer weather and main growing season.<br><br>
-Doing: in summer I love hosting guests in my garden for tea, music and discussion. In quieter moments or for a nice siesta I enjoy lying in my DIY hammock (away from the laptop).
-(confession: sometimes with the laptop, but I gradually weened myself off down to about 2 hours per week of screen time!) and when it is just too hot: finding a few friends, jumping on the bicycle and going for a refreshing swim in one of the many nearby (beautiful) natural lakes.<br><br>
-Celebrating: In autumn comes the main harvest and with a bit of rain and bit of luck, I love getting lost in the woods on long afternoons hunting for mushrooms.
-<br><br>
-There is nothing quite like sitting with good friends in a beautiful wild garden sipping locally-grown/foraged herbal tea. I love foraging to make wild salads and growing my own herbs and vegetables. I have even had the pleasure and the privelege to looking after chickens, horses and a donkey. In a few words: Radical Self-Sustainability and Biophilia.
-<br>
-<br>
-Surrounded by a community which fostered camaraderie while celebrating individuality and diversity everyone was encouraged to try out their ideas for alternative living ranging from unique gardens to solar kitchens and from tipis to iron-age roundhouses and even a few small geodesic domes and cob houses. There were also seasonal social occasions such as communal harvesting of apples and potatoes and also regular full moon pizza parties. As well as being practical, many of the people living there were musically talented and there was a large hall for music and cultural events.
-<br>
-<br>
-I also learned about traditional wood working techniques and also so many improvised and appropriate solutions for everday practical problems. Of course we also used and maintained modern engineering solutions (wireless, networking, power distribution, a large solar installtion, various hot and cold water systems).
-
-The people living in the community had varying levels of experience and there was a good culture of sharing knowledge, tools and helping your neighbours (barn raising).
-<br>
-<br>
-Within the community there was a diverse range of perspectives and skills and we maintained our own infrastucture and learnt how to thrive in a natural setting, adapting to life in a forest. On a personal and a community level the key questions are: How can we live together- transcending the socialisation in institutions / wider society? How can we organise ourselves to lower our individual and collective impact on other people and on the planet? Which skills do we need to learn in order to sustainably meet our needs and to adapt to the challenges we face in the modern world?</div>
-
-With a bit of space and freedom we can all take a more wholistic approach to meeting our needs balancing self, other and nature and coming up with creative win-win-win synergies and strategies (no comprimises).
-<br>
-<br> These idyllic rural retreats have taught self-sufficiency without relying on state-run infrastructure through activities such as cutting wood for warmth or carrying water for daily needs—a unique perspective merging urban intellectual pursuits with serene natural environments. <br>
-</div>
+          <div class="body-text">
+            <div class="subheader-text">Eco-Village Life</div>
+            <div class="body-text"> It was an immersive, deep dive, into eco-village life, learning by doing and collaborating with others also on their journey to becoming practical in everyday life in a forest. I learned about minimum interference management and other regenerative practices, autonomous DIY systems for heating homes and larger communal spaces, hot water, drinking water, energy generation and storage, thermal mass, upcycling / adaptation of resources from the city. We recycled absolutely everything. For example we have our own natural water recycling system, a wood and clay sauna, a clay pizza oven, clay rocket stoves, we harvest our own wood from our own managed forests for fuel and for building materials for our projects and our homes- many of which where built from recycled materials combined with natural, local, materials namely wood and clay. Permaculture was the norm and there was a lot of knowledge about the medicinal properties of plants, we even had our own communal apothecary. Very magical. <image src="../assets/images/ironage.jpg" style="float: right; height: 300px; width: 400px; margin-left: 20px; margin-bottom: 20px;">
+              <br>
+              <br> Having lived in a city for most of my early life I was, at that time, overweight, suffered from allergies and had asthma and constantly over-stimulated but somehow under-nourished, there was something missing. 30 years later, after having recently left the eco village I no longer have any of those imbalances, my biomes had finally healed. My simple advice therefore would be to take time in your life to destimulate and for forest bathing and going slowly and connecting with nature. Also I would highly encourage anyone to learn how to safely forage and to grow their own food. As I slowly realised, over the course of my life, that nature was a bigger computer with its own 'internet of mycelium' interfacing with the roots of the plants, I had a new complex system to learn. Plants are, in fact, the self-replicators that Von Neumann had always dreamed of. The magic of trees and also of smaller plants: absorbing the ions they need from the soil and fixing carbon from the air and synergistically sharing excess carbon through their roots and the mycelial network... *and* you can even eat some of them *and* they have different nutritional profiles and some even have healing properties! Let thy food by thy medicine and thy medicine by thy food, there was no going back, I fell in love and became totally fascinated. </div>
+              <div class="body-text">
+                <image src="../assets/images/SAMBiOtechie.png" style="float: left; height: 300px; width: 284px; margin-right: 20px; margin-bottom: 20px;"> Dreaming: in winter I love the peace and stillness of the forest and being cosy at home with the wood stove burning, some nettle tea and plenty to read and lots of time to go slowly, regenerate and sleep. <br>
+                  <br> Planning: in spring I love to be active in the garden getting everthing ready for the warmer weather and main growing season. <br>
+                  <br> Doing: in summer I love hosting guests in my garden for tea, music and discussion. In quieter moments or for a nice siesta I enjoy lying in my DIY hammock (away from the laptop). (confession: sometimes with the laptop, but I gradually weened myself off down to about 2 hours per week of screen time!) and when it is just too hot: finding a few friends, jumping on the bicycle and going for a refreshing swim in one of the many nearby (beautiful) natural lakes. <br>
+                  <br> Celebrating: In autumn comes the main harvest and with a bit of rain and bit of luck, I love getting lost in the woods on long afternoons hunting for mushrooms. <br>
+                  <br> There is nothing quite like sitting with good friends in a beautiful wild garden sipping locally-grown/foraged herbal tea. I love foraging to make wild salads and growing my own herbs and vegetables. I have even had the pleasure and the privelege to looking after chickens, horses and a donkey. In a few words: Radical Self-Sustainability and Biophilia. <br>
+                  <br> Surrounded by a community which fostered camaraderie while celebrating individuality and diversity everyone was encouraged to try out their ideas for alternative living ranging from unique gardens to solar kitchens and from tipis to iron-age roundhouses and even a few small geodesic domes and cob houses. There were also seasonal social occasions such as communal harvesting of apples and potatoes and also regular full moon pizza parties. As well as being practical, many of the people living there were musically talented and there was a large hall for music and cultural events. <br>
+                  <br> I also learned about traditional wood working techniques and also so many improvised and appropriate solutions for everday practical problems. Of course we also used and maintained modern engineering solutions (wireless, networking, power distribution, a large solar installtion, various hot and cold water systems). The people living in the community had varying levels of experience and there was a good culture of sharing knowledge, tools and helping your neighbours (barn raising). <br>
+                  <br> Within the community there was a diverse range of perspectives and skills and we maintained our own infrastucture and learnt how to thrive in a natural setting, adapting to life in a forest. On a personal and a community level the key questions are: How can we live together- transcending the socialisation in institutions / wider society? How can we organise ourselves to lower our individual and collective impact on other people and on the planet? Which skills do we need to learn in order to sustainably meet our needs and to adapt to the challenges we face in the modern world?
+                </div> With a bit of space and freedom we can all take a more wholistic approach to meeting our needs balancing self, other and nature and coming up with creative win-win-win synergies and strategies (no comprimises). <br>
+                <br> These idyllic rural retreats have taught self-sufficiency without relying on state-run infrastructure through activities such as cutting wood for warmth or carrying water for daily needs—a unique perspective merging urban intellectual pursuits with serene natural environments. <br>
+              </div>
+            </div>
+          </div>
+          <!-- IMAGE GALLERY -->
+          <div id="project-gallery">
+            <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+            <div class="subheader-text">Image Gallery</div>
+            <div class="project-gallery-content">
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/code.jpeg" class="gallery-image">
+                <span class="image-caption">Give your image a caption. People love context.</span>
+              </div>
+              <div class="gallery-image-container half-width">
+                <img loading="lazy" src="../assets/images/sketchbook.jpeg" class="gallery-image">
+                <span class="image-caption">Give your image a caption. People love context.</span>
+              </div>
+              <div class="gallery-image-container">
+                <img loading="lazy" src="../assets/images/camera.jpeg" class="gallery-image">
+                <span class="image-caption">Give your image a caption. People love context.</span>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <!-- IMAGE GALLERY -->
-      <div id="project-gallery">
-        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
-        <div class="subheader-text">Image Gallery</div>
-        <div class="project-gallery-content">
-
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/code.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img loading="lazy" src="../assets/images/sketchbook.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
-            </div>
-            <div class="gallery-image-container">
-              <img loading="lazy" src="../assets/images/camera.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
-            </div>
+        <!-- FOOTER -->
+        <div id="footer">
+          <a class="icon-link" href="mailto:samuelcarlisle@gmail.com">
+            <image src="../assets/icons/mail.svg" class="footer-icon" />
+          </a>
         </div>
-      </div>
-    </div>
-
-    <!-- FOOTER -->
-    <div id="footer">
-
-      <a class="icon-link" href="mailto:samuelcarlisle@gmail.com">
-        <image src="../assets/icons/mail.svg" class="footer-icon"/>
-      </a>
-    </div>
-
-	</body>
-</html>
+      </body>
+      </html>

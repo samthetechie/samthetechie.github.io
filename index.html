@@ -9,286 +9,359 @@ HoomanBean(w/ Voice), Engineer, Entrepreneur, H4ck3r, Gardener
 -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="icon" href="./assets/icons/favicon.ico" />
-    <title>Samuel Carlisle BEng (hons) Dunelm MIET</title>
-    <meta name="description" content="A portfolio of the projects I have worked on and their impact, the services I provide, the skills that I have and a selection of my readings and writings.">
-  <meta name="keywords" content="engineer, security, cryptography, activism, poetry, speaker, change maker, paradigm shifter, consulting, hacking, programming, webdesign, pc repair, permaculture, making, art, make"></meta>    
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/typography.css">
-    <link rel="stylesheet" href="./css/utilities.css">
-    <script type="text/javascript" src="./js/sdmenu.js"></script>
-    <script defer src="./js/script.js"></script>    
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="./index.html">
-        <span class="nav-title">Samuel Carlisle BEng (hons) Dunelm MIET</span>
-        <a class="button" href="mailto:samuelcarlisle@gmail.com">
-          <span class="button-text">Contact</span>
-        </a>
-      </a>
-    </div>
-
- <!-- The overlay -->
-<div id="myNav" class="overlay">
-
-  <!-- Button to close the overlay navigation -->
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-  <!-- Overlay content -->
-  <div class="overlay-content">
-    <p>Home:</p>
-    <hr>
-    <a href="./index.html">> Home</a>    
-    <a href="./home/bio.html">> Bio</a>
-    <a href="./home/contact.html">> Contact</a>
-    <p>Portfolio > Projects:</p>
-    <hr>
-    <a href="./projects/reprap.html">> Reprap Opensource 3D Printer</a>          
-    <a href="./projects/animachine.html">> Animachine @Youin3D, Berlin</a>
-    <a href="./projects/buildingbanter.html">> Industrial Energy Monitoring</a>
-    <a href="./projects/classic4.html">> Medical Device Firmware</a>
-    <a href="./projects/nanode.html">> Nanode, DIY IoT Device</a>
-    <a href="./projects/ltfhc.html">> Electronic Medical Records</a>
-    <a href="./projects/thinkfarm.html">> Sustainability Research</a>
-    <a href="./projects/ose.html">> Open Source Ecology</a>          
-    <p>Portfolio > Actions:</p>
-    <hr>
-    <a href="./actions/ucloccupation.html">> UCL Occupation</a>
-    <a href="./actions/occupylondon.html">> Occupy London Tech Team</a>
-    <a href="./actions/cryptoparty.html">> Cryptoparty London</a>
-    <a href="./actions/hurricanesandy.html">> Hurricane Hackers</a>
-    <a href="./actions/fliehkraft.html">> Fliehkraft, Berlin</a>
-    <a href="./actions/ecovillage.html">> Eco Village</a>          
-    <p>Portfolio > Academia:</p>
-    <hr>
-    <a href="./academia/ch.html">> Overview</a>
-    <a href="./academia/durham.html">> About</a>
-    <a href="./academia/mit.html">> Curriculum Vitae</a>
-    <p>Portfolio > Creative:</p>
-    <hr>
-    <a href="./art/writing.html">> Writing</a>
-    <a href="./art/artwork.html">> Artwork</a>
-    <a href="./art/concepts.html">> Concepts & Design</a>                             
-    <p>Portfolio > Talks:</p>
-    <hr>
-    <a href="./talks/ccc.html">> Assembly + Lightning Talk @CCC</a>
-    <a href="./talks/pp_intl.html">> RW Society @PP Intl</a>
-    <a href="./talks/fabrica.html">> Trust but Verify @Fabrica</a>
-    <a href="./talks/frontline.html">> Revolutionary Apps @Frontline Club</a>
-    <a href="./talks/talklist.html">> List: Talks</a>          
-    <p>Lists of things I like:</p>
-    <hr>
-    <a href="./art/poetrylist.html">> Poetry</a>
-    <a href="./art/filmlist.html">> Film</a>
-    <a href="./art/booklist.html">> Books</a>
-    <a href="./art/musiclist.html">> Music</a>          
-    <p>Service > Consulting</p>
-    <hr>
-    <a href="./service/engineering.html">> IT / Engineering</a>
-    <a href="./sevice/security.html">> Security</a>
-    <a href="./service/sustainability.html">> Sustainability</a>          
-    <p>Service > Programming:</p>
-    <hr>
-    <a href="./service/programming.html">> Examples of My Work</a>
-    <p>Service > Webdev:</p>
-    <hr>
-    <a href="./service/web.html">> Webdesign and Development</a>          
-    <a href="./service/web_examples.html">> Examples of My Work</a>
-    <a href="./service/web_feedback.html">> Client Feedback</a>          
-    <p>Service > PC Repair</p>
-    <hr>
-    <a href="./service/onsite_repair.html">> Onsite Support</a>
-    <a href="./service/remote_repair.html">> Remote Support</a>
-    <a href="./service/repair_feedback.html">> Reviews</a>
-    <p>Service > Clients:</p>
-    <hr>
-    <a href="./service/current_clients.html">> Current Clients</a>          
-    <a href="./service/previous_clients.html">> Previous Clients</a>
-    <p>Service > Personal:</p>
-    <hr>
-    <a href="./service/mentoring.html">> Mentoring</a>
-    <a href="./service/business_development.html">> Business Development</a>          
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="./assets/icons/favicon.ico" />
+  <title>Samuel Carlisle BEng (hons) Dunelm MIET</title>
+  <meta name="description" content="A portfolio of the projects I have worked on and their impact, the services I provide, the skills that I have and a selection of my readings and writings.">
+  <meta name="keywords" content="engineer, security, cryptography, activism, poetry, speaker, change maker, paradigm shifter, consulting, hacking, programming, webdesign, pc repair, permaculture, making, art, make">
+</meta>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="./css/layout.css">
+<link rel="stylesheet" href="./css/typography.css">
+<link rel="stylesheet" href="./css/utilities.css">
+<script defer src="./js/script.js"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <a class="nav-title-link" href="./index.html">
+      <span class="nav-title">Samuel Carlisle BEng (hons) Dunelm MIET</span>
+    </a>
+    <span class="nav-title" title="menu" onclick="openNav()" class="button">≡</span>
   </div>
-
-</div>
-
-<!-- Use any element to open/show the overlay navigation menu -->
-<span onclick="openNav()">open</span> 
-
-    <!-- MAIN PAGE CONTENT -->
-    <div id="main-content">
-      <span onclick="openNav()" class="button">Menu</span>
-      <!-- PORTFOLIO HEADER -->
-      <div id="portfolio-header">
-        <div id="portfolio-header-image-container">
-          <img loading="lazy" src="./assets/images/sam.jpg" class="portfolio-header-image">
-          <span class="image-caption">Sam in 2022</span>
+  <!-- The overlay -->
+  <div id="myNav" class="overlay">
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <p>Home:</p>
+      <hr>
+      <a href="./index.html">> Home</a>
+      <a href="./home/bio.html">> Bio</a>
+      <a href="./home/contact.html">> Contact</a>
+      <p>Portfolio > Projects:</p>
+      <hr>
+      <a href="./projects/reprap.html">> Reprap Opensource 3D Printer</a>
+      <a href="./projects/animachine.html">> Animachine @Youin3D, Berlin</a>
+      <a href="./projects/buildingbanter.html">> Industrial Energy Monitoring</a>
+      <a href="./projects/classic4.html">> Medical Device Firmware</a>
+      <a href="./projects/nanode.html">> Nanode, DIY IoT Device</a>
+      <a href="./projects/ltfhc.html">> Electronic Medical Records</a>
+      <a href="./projects/thinkfarm.html">> Sustainability Research</a>
+      <a href="./projects/ose.html">> Open Source Ecology</a>
+      <p>Portfolio > Actions:</p>
+      <hr>
+      <a href="./actions/ucloccupation.html">> UCL Occupation</a>
+      <a href="./actions/occupylondon.html">> Occupy London Tech Team</a>
+      <a href="./actions/cryptoparty.html">> Cryptoparty London</a>
+      <a href="./actions/hurricanesandy.html">> Hurricane Hackers</a>
+      <a href="./actions/fliehkraft.html">> Fliehkraft, Berlin</a>
+      <a href="./actions/ecovillage.html">> Eco Village</a>
+      <p>Portfolio > Academia:</p>
+      <hr>
+      <a href="./academia/ch.html">> Overview</a>
+      <a href="./academia/durham.html">> About</a>
+      <a href="./academia/mit.html">> Curriculum Vitae</a>
+      <p>Portfolio > Creative:</p>
+      <hr>
+      <a href="./art/writing.html">> Writing</a>
+      <a href="./art/artwork.html">> Artwork</a>
+      <a href="./art/concepts.html">> Concepts & Design</a>
+      <p>Portfolio > Talks:</p>
+      <hr>
+      <a href="./talks/ccc.html">> Assembly + Lightning Talk @CCC</a>
+      <a href="./talks/pp_intl.html">> RW Society @PP Intl</a>
+      <a href="./talks/fabrica.html">> Trust but Verify @Fabrica</a>
+      <a href="./talks/frontline.html">> Revolutionary Apps @Frontline Club</a>
+      <a href="./talks/talklist.html">> List: Talks</a>
+      <p>Lists of things I like:</p>
+      <hr>
+      <a href="./art/poetrylist.html">> Poetry</a>
+      <a href="./art/filmlist.html">> Film</a>
+      <a href="./art/booklist.html">> Books</a>
+      <a href="./art/musiclist.html">> Music</a>
+      <p>Service > Consulting</p>
+      <hr>
+      <a href="./service/engineering.html">> IT / Engineering</a>
+      <a href="./service/security.html">> Security</a>
+      <a href="./service/sustainability.html">> Sustainability</a>
+      <p>Service > Programming:</p>
+      <hr>
+      <a href="./service/programming.html">> Examples of My Work</a>
+      <p>Service > Webdev:</p>
+      <hr>
+      <a href="./service/web.html">> Webdesign and Development</a>
+      <a href="./service/web_examples.html">> Examples of My Work</a>
+      <a href="./service/web_feedback.html">> Client Feedback</a>
+      <p>Service > PC Repair</p>
+      <hr>
+      <a href="./service/onsite_repair.html">> Onsite Support</a>
+      <a href="./service/remote_repair.html">> Remote Support</a>
+      <a href="./service/repair_feedback.html">> Reviews</a>
+      <p>Service > Clients:</p>
+      <hr>
+      <a href="./service/current_clients.html">> Current Clients</a>
+      <a href="./service/previous_clients.html">> Previous Clients</a>
+      <p>Service > Personal:</p>
+      <hr>
+      <a href="./service/mentoring.html">> Mentoring</a>
+      <a href="./service/business_development.html">> Business Development</a>
+    </div>
+  </div>
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span onclick="openNav()">open</span>
+  <!-- The overlay -->
+  <div id="myNav" class="overlay">
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <p>Home:</p>
+      <hr>
+      <a href="./index.html">> Home</a>
+      <a href="./home/bio.html">> Bio</a>
+      <a href="./home/contact.html">> Contact</a>
+      <p>Portfolio > Projects:</p>
+      <hr>
+      <a href="./projects/reprap.html">> Reprap Opensource 3D Printer</a>
+      <a href="./projects/animachine.html">> Animachine @Youin3D, Berlin</a>
+      <a href="./projects/buildingbanter.html">> Industrial Energy Monitoring</a>
+      <a href="./projects/classic4.html">> Medical Device Firmware</a>
+      <a href="./projects/nanode.html">> Nanode, DIY IoT Device</a>
+      <a href="./projects/ltfhc.html">> Electronic Medical Records</a>
+      <a href="./projects/thinkfarm.html">> Sustainability Research</a>
+      <a href="./projects/ose.html">> Open Source Ecology</a>
+      <p>Portfolio > Actions:</p>
+      <hr>
+      <a href="./actions/ucloccupation.html">> UCL Occupation</a>
+      <a href="./actions/occupylondon.html">> Occupy London Tech Team</a>
+      <a href="./actions/cryptoparty.html">> Cryptoparty London</a>
+      <a href="./actions/hurricanesandy.html">> Hurricane Hackers</a>
+      <a href="./actions/fliehkraft.html">> Fliehkraft, Berlin</a>
+      <a href="./actions/ecovillage.html">> Eco Village</a>
+      <p>Portfolio > Academia:</p>
+      <hr>
+      <a href="./academia/ch.html">> Overview</a>
+      <a href="./academia/durham.html">> About</a>
+      <a href="./academia/mit.html">> Curriculum Vitae</a>
+      <p>Portfolio > Creative:</p>
+      <hr>
+      <a href="./art/writing.html">> Writing</a>
+      <a href="./art/artwork.html">> Artwork</a>
+      <a href="./art/concepts.html">> Concepts & Design</a>
+      <p>Portfolio > Talks:</p>
+      <hr>
+      <a href="./talks/ccc.html">> Assembly + Lightning Talk @CCC</a>
+      <a href="./talks/pp_intl.html">> RW Society @PP Intl</a>
+      <a href="./talks/fabrica.html">> Trust but Verify @Fabrica</a>
+      <a href="./talks/frontline.html">> Revolutionary Apps @Frontline Club</a>
+      <a href="./talks/talklist.html">> List: Talks</a>
+      <p>Lists of things I like:</p>
+      <hr>
+      <a href="./art/poetrylist.html">> Poetry</a>
+      <a href="./art/filmlist.html">> Film</a>
+      <a href="./art/booklist.html">> Books</a>
+      <a href="./art/musiclist.html">> Music</a>
+      <p>Service > Consulting</p>
+      <hr>
+      <a href="./service/engineering.html">> IT / Engineering</a>
+      <a href="./service/security.html">> Security</a>
+      <a href="./service/sustainability.html">> Sustainability</a>
+      <p>Service > Programming:</p>
+      <hr>
+      <a href="./service/programming.html">> Examples of My Work</a>
+      <p>Service > Webdev:</p>
+      <hr>
+      <a href="./service/web.html">> Webdesign and Development</a>
+      <a href="./service/web_examples.html">> Examples of My Work</a>
+      <a href="./service/web_feedback.html">> Client Feedback</a>
+      <p>Service > PC Repair</p>
+      <hr>
+      <a href="./service/onsite_repair.html">> Onsite Support</a>
+      <a href="./service/remote_repair.html">> Remote Support</a>
+      <a href="./service/repair_feedback.html">> Reviews</a>
+      <p>Service > Clients:</p>
+      <hr>
+      <a href="./service/current_clients.html">> Current Clients</a>
+      <a href="./service/previous_clients.html">> Previous Clients</a>
+      <p>Service > Personal:</p>
+      <hr>
+      <a href="./service/mentoring.html">> Mentoring</a>
+      <a href="./service/business_development.html">> Business Development</a>
+    </div>
+  </div>
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span onclick="openNav()">open</span>
+  <!-- MAIN PAGE CONTENT -->
+  <div id="main-content">
+    <!-- PORTFOLIO HEADER -->
+    <div id="portfolio-header">
+      <div id="portfolio-header-image-container">
+        <img loading="lazy" src="./assets/images/sam.jpg" class="portfolio-header-image">
+        <span class="image-caption">Sam in 2022</span>
+      </div>
+      <div id="portfolio-header-text-container">
+        <div class="header-text">
+          <span class="main-title">Hey, I'm Samuel Carlisle</span>
+          <div class="body-text">I am an electronic engineer, community organizer, civic media expert, and entrepreneur.</div>
         </div>
-        <div id="portfolio-header-text-container">
-          <div class="header-text">
-            <span class="main-title">Hey, I'm Samuel Carlisle</span>
-            <div class="body-text">I am an electronic engineer, community organizer, civic media expert, and entrepreneur.</div>
+        <a class="button" id="my-work-link">
+          <span class="button-text">Check out my projects</span>
+          <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+        </a>
+      </div>
+    </div>
+    <div id="about-section">
+      <span class="subheader-text">About Me</span>
+      <div class="about-section-content">
+        <div class="body-text">I am an experienced technologist who establishes technical infrastructure and fosters social patterns that enable collaboration, participation, and innovation. As a co-founder of Sukey, I helped create a platform to keep demonstrators safe, mobile and informed. Additionally, I've been involved with other initiatives like UCLOccupation, OccupyLSX tech, CryptopartyLondon, Hurricane Hackers, Open Source Ecology. I have also had the experience of living in an Eco Village for 5 years. My background includes working in industry for various companies while participating in local Hackspace communities around the world. Embracing hacker culture, I repair and modify my own belongings as well as assisting others to become more empowered through this approach. I hold a BEng with honors from Durham University and am a member of the Institution of Engineering and Technology (IET). Overall, my work focuses on creating transformative solutions using open source hardware and software and civic media tools such as 3D printers or apps designed for direct action while promoting positive change through global collaborative efforts.</div>
+      </div>
+    </div>
+    <!-- PROJECTS / MY WORK SECTION -->
+    <div id="my-work-section">
+      <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
+      <span class="subheader-text">Projects I have worked on:</span>
+      <div class="projects-container">
+        <div class="project-card">
+          <img loading="lazy" src="./assets/images/animachine_2.jpeg" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">#Animachine</div>
+            <div class="body-text project-card-text">Participative Digital Fabrication for Endangered Species Conservation.</div>
           </div>
-          <a class="button" id="my-work-link">
-            <span class="button-text">Check out my projects</span>
+          <a class="button" href="./project-pages/project-animachine.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <div class="project-card">
+          <img loading="lazy" src="./assets/images/20140724_153555.jpg" class="project-image">
+          <div class="subheader-text project-title">Electronic Medical Records</div>
+          <div class="body-text project-card-text">Solar-Powered HF Radio-Synchronised Electronic Medical Records and Communication Network Deployed in 'extremely remote' Health Clinics and Hospitals around Lake Tanganyika. <n /div>
+          </div>
+          <a class="button" href="./project-pages/project-ltfhc.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <div class="project-card">
+          <img loading="lazy" src="./assets/images/sukey_app.jpg" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Sukey</div>
+            <div class="body-text project-card-text">Keeping protesters mobile and informed during protests. Languages: php, html, js, css.</div>
+          </div>
+          <a class="button" href="./project-pages/project-sukey.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <div class="project-card">
+          <img loading="lazy" src="./assets/images/SAMBiOtechie.png" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">EcoVillage</div>
+            <div class="body-text project-card-text">Practising voluntary minimalism, learning about forest ecology, community living, permaculture, medicinal and edible herbs. Forest bathing.</div>
+          </div>
+          <a class="button" href="./actions/ecovillage.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <div class="project-card">
+          <img loading="lazy" src="./assets/images/20140726_175001.jpg" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Writings</div>
+            <div class="body-text project-card-text">My mind to your mind, my thoughts to your thoughts. Heart through mind.</div>
+          </div>
+          <a class="button" href="./project-pages/project-writings.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <div class="project-card">
+          <img loading="lazy" src="./assets/images/20140726_175001.jpg" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Readings</div>
+            <div class="body-text project-card-text">The thoughts of others, encoded in words, are shared here</div>
+          </div>
+          <a class="button" href="./project-pages/project-readings.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <div class="project-card">
+          <img loading="lazy" src="./assets/images/occupy_6.jpg" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Occupy London: Tech Team</div>
+            <div class="body-text project-card-text">Occupy London was a political movement in London.</div>
+          </div>
+          <a class="button" href="./project-pages/project-occupylondon.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <div class="project-card">
+          <img loading="lazy" src="./assets/images/Cryptoparty.png" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Cryptoparty London</div>
+            <div class="body-text project-card-text">Grassroots, global endeavour to introduce the basics of practical cryptography such as the Tor, PGP, OTR, disk encryption and VPNs to the general public.</div>
+          </div>
+          <a class="button" href="./project-pages/project-cryptoparty.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <div class="project-card">
+          <img loading="lazy" src="./assets/images/ucloccupation_com.png" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">UCLOccupation</div>
+            <div class="body-text project-card-text">Bootstrapped the tech team at a student occupation (which became a hub of a national movement) together with other fellow nerds, students and volunteers.</div>
+          </div>
+          <a class="button" href="./project-pages/project-ucloccupation.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <div class="project-card">
+          <img loading="lazy" src="./assets/images/XBee-2-mW.jpg" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Building Banter</div>
+            <div class="body-text project-card-text">Improving energy efficiency through ‘conversing’ with buildings and users in an engaging manner".</div>
+          </div>
+          <a class="button" href="./project-pages/project-buildingbanter.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <div class="project-card">
+          <img loading="lazy" src="./assets/images/classic4.jpg" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Classic 4</div>
+            <div class="body-text project-card-text">Electro Accupuncture / TENS Device. Classic 4 @ Harmony Medical. Languages: c, cpp, asm, python.</div>
+          </div>
+          <a class="button" href="./project-pages/project-classic4.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <div class="project-card">
+          <img loading="lazy" src="./assets/images/nanode.png" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Nanode</div>
+            <div class="body-text project-card-text">An open source Arduino-like board that has in-built web connectivity. Best Internet of Things Open Source Project 2011.</div>
+          </div>
+          <a class="button" href="./project-pages/project-nanode.html">
+            <span class="button-text">Read More</span>
             <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
           </a>
         </div>
       </div>
-      <div id="about-section">
-        <span class="subheader-text">About Me</span>
-        <div class="about-section-content">
-          <div class="body-text">I am an experienced technologist who establishes technical infrastructure and fosters social patterns that enable collaboration, participation, and innovation. As a co-founder of Sukey, I helped create a platform to keep demonstrators safe, mobile and informed. Additionally, I've been involved with other initiatives like UCLOccupation, OccupyLSX tech, CryptopartyLondon, Hurricane Hackers, Open Source Ecology. I have also had the experience of living in an Eco Village for 5 years. My background includes working in industry for various companies while participating in local Hackspace communities around the world. Embracing hacker culture, I repair and modify my own belongings as well as assisting others to become more empowered through this approach. I hold a BEng with honors from Durham University and am a member of the Institution of Engineering and Technology (IET). Overall, my work focuses on creating transformative solutions using open source hardware and software and civic media tools such as 3D printers or apps designed for direct action while promoting positive change through global collaborative efforts.</div>
-        </div>
-      </div>
-      <!-- PROJECTS / MY WORK SECTION -->
-      <div id="my-work-section">
-        <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
-        <span class="subheader-text">Projects I have worked on:</span>
-        <div class="projects-container">
-          <div class="project-card">
-            <img loading="lazy" src="./assets/images/animachine_2.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">#Animachine</div>
-              <div class="body-text project-card-text">Participative Digital Fabrication for Endangered Species Conservation.</div>
-            </div>
-            <a class="button" href="./project-pages/project-animachine.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-            </a>
-          </div>
-          <div class="project-card">
-            <img loading="lazy" src="./assets/images/20140724_153555.jpg" class="project-image">
-            <div class="subheader-text project-title">Electronic Medical Records</div>
-            <div class="body-text project-card-text">Solar-Powered HF Radio-Synchronised Electronic Medical Records and Communication Network Deployed in 'extremely remote' Health Clinics and Hospitals around Lake Tanganyika. <n /div>
-            </div>
-            <a class="button" href="./project-pages/project-ltfhc.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-            </a>
-          </div>
-          <div class="project-card">
-            <img loading="lazy" src="./assets/images/sukey_app.jpg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Sukey</div>
-              <div class="body-text project-card-text">Keeping protesters mobile and informed during protests. Languages: php, html, js, css.</div>
-            </div>
-            <a class="button" href="./project-pages/project-sukey.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-            </a>
-          </div>
-          <div class="project-card">
-            <img loading="lazy" src="./assets/images/SAMBiOtechie.png" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">EcoVillage</div>
-              <div class="body-text project-card-text">Practising voluntary minimalism, learning about forest ecology, community living, permaculture, medicinal and edible herbs. Forest bathing.</div>
-            </div>
-            <a class="button" href="./actions/ecovillage.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-            </a>
-          </div>
-          <div class="project-card">
-            <img loading="lazy" src="./assets/images/20140726_175001.jpg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Writings</div>
-              <div class="body-text project-card-text">My mind to your mind, my thoughts to your thoughts. Heart through mind.</div>
-            </div>
-            <a class="button" href="./project-pages/project-writings.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-            </a>
-          </div>
-          <div class="project-card">
-            <img loading="lazy" src="./assets/images/20140726_175001.jpg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Readings</div>
-              <div class="body-text project-card-text">The thoughts of others, encoded in words, are shared here</div>
-            </div>
-            <a class="button" href="./project-pages/project-readings.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-            </a>
-          </div>
-          <div class="project-card">
-            <img loading="lazy" src="./assets/images/occupy_6.jpg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Occupy London: Tech Team</div>
-              <div class="body-text project-card-text">Occupy London was a political movement in London.</div>
-            </div>
-            <a class="button" href="./project-pages/project-occupylondon.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-            </a>
-          </div>
-          <div class="project-card">
-            <img loading="lazy" src="./assets/images/Cryptoparty.png" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Cryptoparty London</div>
-              <div class="body-text project-card-text">Grassroots, global endeavour to introduce the basics of practical cryptography such as the Tor, PGP, OTR, disk encryption and VPNs to the general public.</div>
-            </div>
-            <a class="button" href="./project-pages/project-cryptoparty.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-            </a>
-          </div>
-          <div class="project-card">
-            <img loading="lazy" src="./assets/images/ucloccupation_com.png" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">UCLOccupation</div>
-              <div class="body-text project-card-text">Bootstrapped the tech team at a student occupation (which became a hub of a national movement) together with other fellow nerds, students and volunteers.</div>
-            </div>
-            <a class="button" href="./project-pages/project-ucloccupation.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-            </a>
-          </div>
-          <div class="project-card">
-            <img loading="lazy" src="./assets/images/XBee-2-mW.jpg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Building Banter</div>
-              <div class="body-text project-card-text">Improving energy efficiency through ‘conversing’ with buildings and users in an engaging manner".</div>
-            </div>
-            <a class="button" href="./project-pages/project-buildingbanter.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-            </a>
-          </div>
-          <div class="project-card">
-            <img loading="lazy" src="./assets/images/classic4.jpg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Classic 4</div>
-              <div class="body-text project-card-text">Electro Accupuncture / TENS Device. Classic 4 @ Harmony Medical. Languages: c, cpp, asm, python.</div>
-            </div>
-            <a class="button" href="./project-pages/project-classic4.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-            </a>
-          </div>
-          <div class="project-card">
-            <img loading="lazy" src="./assets/images/nanode.png" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Nanode</div>
-              <div class="body-text project-card-text">An open source Arduino-like board that has in-built web connectivity. Best Internet of Things Open Source Project 2011.</div>
-            </div>
-            <a class="button" href="./project-pages/project-nanode.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- FOOTER -->
-      <div id="footer">
-        <a class="icon-link" href="mailto:samuelcarlisle@gmail.com">
-          <image src="./assets/icons/mail.svg" class="footer-icon" />
-        </a>
-      </div>
+    </div>
+    <!-- FOOTER -->
+    <div id="footer">
+      <a class="icon-link" href="mailto:samuelcarlisle@gmail.com">
+        <image src="./assets/icons/mail.svg" class="footer-icon" />
+      </a>
+    </div>
   </body>
-</html>
+  </html>
