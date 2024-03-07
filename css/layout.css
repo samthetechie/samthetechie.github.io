@@ -1,4 +1,11 @@
-* {
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
+      title="Wrap Long Lines">
+  </head>
+  <body>
+    <pre>* {
   box-sizing: border-box;
 }
 
@@ -25,7 +32,6 @@ HR {
 /* Main Page Layout */
 
 #main-content {
-  margin: 125px 425px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -225,3 +231,6 @@ HR {
 
 
 
+</pre>
+  </body>
+</html>
