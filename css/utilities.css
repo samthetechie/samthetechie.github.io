@@ -112,7 +112,6 @@ a.button {
   border-radius: 50px;
   color: black;
   text-decoration: none;
-  width: fit-content;
   display: flex;
   gap: 5px;
   align-items: center;
