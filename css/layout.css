@@ -11,6 +11,7 @@ html {
 
 body {
   margin: 0;
+  padding-top: 20px; /* Add top padding to create space below the header */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -31,14 +32,12 @@ HR {
 }
 
 
-
-
 /* Portfolio Header */
-
 #portfolio-header {
   display: flex;
   gap: 20px;
   align-items: center;
+  margin-top: 20px; /* Add margin-top to create space before the content */
 }
 
 #portfolio-header-image-container {
