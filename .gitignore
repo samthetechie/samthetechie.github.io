@@ -1,1 +1,14 @@
 *.bak
+art/requirements.txt
+art/serve_images.py
+art/setup_venv.sh
+art/venv/
+create_tree.py
+create_tree_nocontent.py
+extract_html.py
+extracted_content.txt
+requirements.txt
+setup_venv.sh
+tree_data.txt
+tree_data_no_content.txt
+venv/

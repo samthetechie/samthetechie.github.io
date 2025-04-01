@@ -1,0 +1,210 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Import Modern Font */
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ddd;
+  background-color: #121212;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 20px; /* Spacing below the header */
+}
+
+/* Links */
+a {
+  color: #87D2E0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #56B1C4;
+}
+
+/* Horizontal Rule */
+hr {
+  height: 1px;
+  width: 100%;
+  background: #444;
+  border: none;
+}
+
+/* Main Content */
+#main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px;
+}
+
+/* Portfolio Header */
+#portfolio-header {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-top: 24px;
+}
+
+#portfolio-header-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-basis: 50%;
+}
+
+.portfolio-header-image {
+  width: 50%;
+  height: auto;
+  margin-top: 60px;
+  border-radius: 8px;
+}
+
+#portfolio-header-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-basis: 50%;
+}
+
+/* About Section */
+#about-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* Project Section */
+#my-work-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Project Cards */
+.projects-container {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+  max-width: calc((100% - 48px) / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #1a1a1a;
+  padding: 16px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Project Text */
+.project-card-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Project Gallery */
+#project-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+/* Gallery Images */
+.gallery-image-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.gallery-image-container.half-width {
+  width: calc((100% - 24px) / 2);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Buttons */
+button {
+  background: #87D2E0;
+  color: #121212;
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #56B1C4;
+}
+
+/* Responsiveness */
+
+/* Large Devices (1200px and below) */
+@media only screen and (max-width: 1200px) {
+  .project-card {
+    max-width: calc((100% - 24px) / 2); /* Two columns */
+  }
+}
+
+/* Medium Devices (800px and below) */
+@media only screen and (max-width: 800px) {
+  #portfolio-header {
+    flex-direction: column;
+  }
+
+  .project-card {
+    max-width: 100%; /* Single column layout */
+  }
+}
+
+/* Small Devices (600px and below) */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .gallery-image-container.half-width {
+    width: 100%;
+  }
+}
