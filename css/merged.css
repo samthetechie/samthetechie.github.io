@@ -350,8 +350,12 @@ body {
 }
 
 .footer-icon {
-	width: 20px;
-	height: 20px
+	height: 30px;
+}
+
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
 }
 
 a.icon-link {
