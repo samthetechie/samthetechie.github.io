@@ -25,11 +25,3 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
-
-document.querySelector("input, textarea").addEventListener("focusout", function(){
-    document.querySelector('meta[name=viewport]').remove();
-    document.head.insertAdjacentHTML('beforeend', '<meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=0">');
-
-    document.querySelector('meta[name=viewport]').remove();
-    document.head.insertAdjacentHTML('beforeend', '<meta name="viewport" content="width=device-width, initial-scale=yes">' );
-});
