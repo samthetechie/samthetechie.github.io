@@ -189,6 +189,10 @@ h1, h2, h3, h4, h5, h6, p {
 	gap: 16px;
 }
 
+.project-header-image{
+	width: 600px;
+}
+
 .project-details-content {
 	gap: 34px;
 }
