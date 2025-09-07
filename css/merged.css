@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .project-image {
 	width: 100%;
-	max-height: 400px; /* uniform image height */
+	/*max-height: 400px;*/ /* uniform image height */
 	object-fit: cover;
 	object-position: center;
 	border-radius: 6px;
