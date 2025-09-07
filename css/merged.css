@@ -362,13 +362,6 @@ a.no-underline:hover {
 	gap: 16px;
 }
 
-/* Media Queries */
-@media only screen and (max-width: 1200px) {
-	.project-card {
-		max-width: calc(50% - 24px);
-	}
-}
-
 @media only screen and (max-width: 800px) {
 	#portfolio-header {
 		flex-direction: column;
